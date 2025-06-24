@@ -4,8 +4,11 @@ export const programCards = [
   {
     id: 1,
     title: "Advanced Data Science & AI Master Certification",
-    description: "Gain Full-Stack AI Expertise and Deliver Industry-Level end to end Projects",
-    why: ["Build AI-powered applications", "Master prompt engineering techniques"],
+    description: "Achieve Full-Stack AI Skills and Complete Industry Projects",
+    why: [
+      "Build AI-powered applications",
+      "Master prompt engineering techniques",
+    ],
     keySkills: ["ChatGPT", "Claude", "Prompt Engineering"],
     duration: "16 Weeks",
     level: "Advanced",
@@ -13,14 +16,17 @@ export const programCards = [
     brochureUrl: "#",
     theme: "purple",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
-    icon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/icon_pur.webp"
+    icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/icon_pur.webp",
   },
 
   {
     id: 2,
     title: "Data Analytics and Business Analytics with Generative AI",
-    description: "Gain Full-Stack AI Expertise and Deliver Industry-Level end to end Projects",
-    why: ["Build AI-powered applications", "Master prompt engineering techniques"],
+    description: "Master Data-Driven Insights and Analytics with Gen AI",
+    why: [
+      "Build AI-powered applications",
+      "Master prompt engineering techniques",
+    ],
     keySkills: ["ChatGPT", "Claude", "Prompt Engineering"],
     duration: "16 Weeks",
     level: "Advanced",
@@ -28,7 +34,7 @@ export const programCards = [
     brochureUrl: "#",
     theme: "chocolateOrange",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
-    icon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/icon_pur.webp"
+    icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/icon_pur.webp",
   },
   {
     id: 3,
@@ -42,12 +48,13 @@ export const programCards = [
     brochureUrl: "#",
     theme: "green",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
-    icon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/icon_pur.webp"
+    icon: "https://d32and0ii3b8oy.cloudfront.net/web/learnbay_v4/Homepage/course_section/devops_icon.png",
   },
   {
     id: 4,
     title: "Cybersecurity & Digital Defense Master",
-    description: "Protect digital assets & build secure system from the ground up",
+    description:
+      "Protect digital assets & build secure system from the ground up",
     why: ["Master ethical hacking techniques", "Design secure systems"],
     keySkills: ["Penetration Testing", "Network Security"],
     duration: "16 Weeks",
@@ -56,6 +63,6 @@ export const programCards = [
     brochureUrl: "#",
     theme: "red",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
-    icon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/icon_pur.webp"
-  }
+    icon: "https://d32and0ii3b8oy.cloudfront.net/web/learnbay_v4/Homepage/course_section/cyber_security_cion.png",
+  },
 ];

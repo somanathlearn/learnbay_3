@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useMediaQuery } from "react-responsive";
 
 // Dynamic imports
-import FirstSection from "@/components/Home/FirstSection/FirstSection";
+// import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import HeroSection from "../components/homeNew/HeroSecation/HeroSection";
 import PartnersSlider from "@/components/homeNew/PartnerSlides/Partner";
 import ProgramSection from "@/components/homeNew/ProgramSection/ProgramSection";

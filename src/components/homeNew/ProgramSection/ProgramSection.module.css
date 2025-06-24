@@ -1,510 +1,542 @@
-.ProgramSection {
-  width: 100%;
-  max-width: 1280px;
-  margin: auto;
-  position: relative;
+/* Overall Wrapper */
+.programSectionWrapper {
+  background-color: #f7f8fa;
+  padding: 4rem 1rem;
+  font-family: "Inter", sans-serif;
 }
 
-.ProgramSection {
-  padding-bottom: 200px; /* just for scroll room */
-}
-
-.main {
-  display: grid;
-  grid-template-columns: 10% 90%;
-  justify-content: center;
-  position: relative;
-}
-
-.container {
+/* Header Section */
+.header {
+  max-width: 80rem;
+  margin: 0 auto 3rem auto;
   text-align: center;
-  margin-bottom: 5rem; /* mb-20 */
 }
 
 .heading {
-  font-size: 1.5rem; /* text-2xl */
-  font-weight: 700; /* font-bold */
-  color: #1e293b; /* slate-800 */
-  line-height: 1.25; /* leading-tight */
-  letter-spacing: -0.025em; /* tracking-tight */
-  margin-bottom: 1.5rem; /* mb-6 */
-}
-
-/* For top bar */
-.topChocolateOrange {
-  border-radius: 40px 40px 0px 0px;
-  border: 3px solid #8B3F1D !important;
-  background: linear-gradient(90deg, rgba(108, 64, 157, 0.20) 0%, rgba(77, 79, 205, 0.20) 100%);
-}
-
-/* Card main wrapper */
-.chocolateOrangeMain {
-  border-radius: 39px;
-  background: linear-gradient(98deg, #2F2000 3.53%, #590C0C 97.48%) !important;
-
-}
-
-/* For key skill points background or text */
-.pointsChocolateOrange li {
-  border-radius: 9.287px;
-  border: 1.857px solid #965357 !important;
-  background: rgba(255, 255, 255, 0.33) !important;
-}
-
-/* Note section background */
-.noteChocolateOrange {
-  background: linear-gradient(90deg, #755A2A 0%, rgba(76, 78, 207, 0.00) 100%) !important;
-}
-
-/* Duration + Level blocks */
-.durChocolateOrange, .levelChocolateOrange {
-/* border: 2px solid #ff8c42 !important; */
-/* background: rgba(123, 63, 0, 0.12); */
-
-}
-.catChocolateOrange {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background: red !important;
-  padding: 50px;
-}
-/* Button styles */
-.downloadbtnChocolateOrange {
-background:transparent !important;
-border: 1px solid #ff8c42;
-color: #fff;
-}
-
-.applybtnChocolateOrange {
-  border-radius: 10px;
-  background: #CE8076 !important;
-
-}
-
-
-
-@media (min-width: 768px) {
-  .heading {
-    font-size: 1.875rem; /* md:text-3xl */
-  }
-}
-
-@media (min-width: 1024px) {
-  .heading {
-    font-size: 2.25rem; /* lg:text-4xl */
-  }
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1c2752;
+  margin-bottom: 0.75rem;
 }
 
 .subheading {
-  font-size: 1rem; /* text-base */
-  color: #334155; /* slate-700 */
-  font-weight: 500; /* font-medium */
-  line-height: 1.625; /* leading-relaxed */
-  max-width: 64rem; /* max-w-4xl */
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem; /* mb-6 */
+  font-size: 1.125rem;
+  color: #5a6789;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
 }
 
-@media (min-width: 768px) {
-  .subheading {
-    font-size: 1.125rem; /* md:text-lg */
-  }
-}
-
-@media (min-width: 1024px) {
-  .subheading {
-    font-size: 1.25rem; /* lg:text-xl */
-  }
-}
-
+/* Badges */
 .badgesContainer {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 0.75rem; /* gap-3 */
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.625rem; /* gap-2.5 */
-  padding: 0.625rem 1.25rem; /* px-5 py-2.5 */
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 9999px; /* rounded-full */
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 1px solid transparent;
+}
+.badge .icon {
+  width: 18px;
+  height: 18px;
+}
+.badge.orange {
+  background-color: #fff4ec;
+  color: #ff842b;
+  border-color: #ffe6d1;
+}
+.badge.blue {
+  background-color: #f0f6ff;
+  color: #4b88ff;
+  border-color: #d8e6ff;
+}
+.badge.purple {
+  background-color: #f5f3ff;
+  color: #8c65ff;
+  border-color: #e6deff;
 }
 
-.icon {
-  width: 1rem; /* w-4 */
-  height: 1rem; /* h-4 */
-}
-
-.badgeText {
-  font-size: 0.875rem; /* text-sm */
-  font-weight: 600; /* font-semibold */
-  color: #334155; /* slate-700 */
-}
-
-/* Orange variant */
-.orange {
-  background-color: #fff7ed; /* orange-50 */
-  border-color: #ffedd5; /* orange-100 */
-}
-
-.orange .icon {
-  color: #ea580c; /* orange-600 */
-}
-
-/* Blue variant */
-.blue {
-  background-color: #eff6ff; /* blue-50 */
-  border-color: #dbeafe; /* blue-100 */
-}
-
-.blue .icon {
-  color: #2563eb; /* blue-600 */
-}
-
-/* Purple variant */
-.purple {
-  background-color: #f5f3ff; /* purple-50 */
-  border-color: #ede9fe; /* purple-100 */
-}
-
-.purple .icon {
-  color: #7c3aed; /* purple-600 */
-}
-.top{
-  display: flex;
-  gap: 30px;
-  border-radius: 40px 40px 0px 0px;
-border: 4px solid #4D4FCD;
-background: linear-gradient(90deg, rgba(108, 64, 157, 0.20) 0%, rgba(77, 79, 205, 0.20) 100%);
-padding: 30px 40px;
-
-  
-}
-.top h5 {
-  color: #FFF;
-font-size: 30.436px;
-font-style: normal;
-font-weight: 600;
-line-height: 100.5%; /* 49.887px */
-letter-spacing: -0.394px;
-}
-.top p {
-font-size: 18.529px;
-font-style: normal;
-font-weight: 400;
-line-height: 109%; /* 36.549px */
-letter-spacing: 0.245px;
-color: #fff;
-}
-
-.cardMain{
-  border-radius: 39px;
-background: linear-gradient(98deg, #11192C 2.16%, #1E3984 97.48%);
-
-}
-.bottom{
-  padding: 30px;
+/* Main Content Layout */
+.mainContent {
+  max-width: 80rem;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 73% 25%;
+  grid-template-columns: 24px 1fr;
+  gap: 2rem;
+  position: relative;
 }
 
-.left {
-  padding:0 10px;
-}
-.whythis p {
-  color: #F9FCFF;
-font-size: 20.775px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 35.135px */
-letter-spacing: -0.278px;
-}
-.list {
+/* Cards Container */
+.cardsContainer {
   display: flex;
-  gap: 10px;
-  list-style: none;
-color: #fff;
-font-size: 16.116px;
-font-style: normal;
-font-weight: 400;
-line-height: 149%; /* 32.953px */
-letter-spacing: 0.221px;
-align-items: center;
-margin:20px 0;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.list li {
+/* New Card Styling */
+.card {
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--theme-background-color, #1a202c);
+  color: #fff;
+  position: relative;
+  padding: 2px; /* This padding with the gradient background creates the border */
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  background: var(--theme-border-gradient);
+  z-index: 0;
+}
+
+.card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.cardInner {
+  background: var(--theme-background-gradient);
+  border-radius: 22px; /* Slightly smaller than parent for border effect */
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.cardHeader {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: var(--theme-header-gradient);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.info{
-  display: flex;
-      gap: 5px;
-      flex-direction: column;
-}
-.firstdive p {
-  color: #EED182;
-font-size: 18.867px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 32.722px */
-letter-spacing: -0.259px;
+.cardIcon {
+  border-radius: 12px;
+  flex-shrink: 0;
 }
 
-.firstdive{
-  display: flex;
-    gap: 10px;
-    align-items: center;
-    gap: 20px;
-}
-.secondive p {
-  color: #69B5FF;
-
-font-size: 18.867px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 32.722px */
-letter-spacing: -0.259px;
-margin-top: 0;
-}
-.secondive{
-  display: flex
-;
-    align-items: center;
-    gap: 20px;
+.cardTitleGroup {
+  flex: 1;
 }
 
-.Imagelogo{
-  margin-top: 20px;
-}
-.points{
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  margin: 10px 0;
-
-}
-.points li {
-  padding:4px 20px;
-  border-radius: 9.287px;
-  border: 1.857px solid #005FBA;
-  background: rgba(158, 217, 255, 0.33);
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
   color: #fff;
-  font-weight: 300;
-  margin: 10px 0;
-  font-size: 14px;
-}
-.note{
-  background: linear-gradient(90deg, #362249 0%, rgba(76, 78, 207, 0.00) 100%);
-  padding:6px 10px;
-  margin: 20px 0;
-}
-.note h6 {
-  color: #F9FCFF;
-
-font-size: 18.775px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 35.135px */
-letter-spacing: -0.278px;
-}
-.note span {
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 149%; /* 34.27px */
-letter-spacing: 0.23px;
+  margin: 0 0 0.25rem 0;
+  line-height: 1.3;
 }
 
-.hr {
-  opacity: 0.4;
-background: #EFEFEF;
-width: 0.8px;
+.cardDescription {
+  font-size: 0.9rem;
+  color: #e0e8ff;
+  opacity: 0.9;
+  margin: 0;
 }
 
-.cat{
+.cardBody {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+  gap: 1.5rem;
+}
+
+.leftPanel {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-.dur{
-  border-radius: 10px;
-/* border: 2px solid #005FBA; */
-/* background: rgba(204, 205, 255, 0.12); */
-text-align: center;
-align-items: center;
-padding:10px 20px;
-
-
-}
-.dur p {
-  margin-top: 0;
-  color: #FCFDFF;
-font-size: 18.77px;
-font-style: normal;
-font-weight: 400;
-line-height: 126.5%; /* 35.129px */
-letter-spacing: -0.278px;
-}
-.dur span {
-
-font-style: normal;
-font-weight: 700;
-line-height: 126.5%;
-letter-spacing: -0.278px;
+  gap: 1.5rem;
 }
 
-.level{
-  border-radius: 10px;
-/* border: 2px solid #005FBA; */
-/* background: rgba(204, 205, 255, 0.12); */
-text-align: center;
-align-items: center;
-padding:10px 20px;
-
-
-}
-.level p {
-  margin-top: 0;
-  color: #FCFDFF;
-font-size: 18.77px;
-font-style: normal;
-font-weight: 400;
-line-height: 126.5%; /* 35.129px */
-letter-spacing: -0.278px;
-}
-.level span {
-
-font-style: normal;
-font-weight: 700;
-line-height: 126.5%;
-letter-spacing: -0.278px;
-}
-.buttons{
+.rightPanel {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
-  gap: 20px;
-
+  gap: 1.5rem;
 }
 
-.downloadbtn {
-  border-radius: 10px;
-border: 1px solid #FFF;
-background: linear-gradient(98deg, #11192C 2.16%, #1E3984 97.48%);
-color: #FCFDFF;
-cursor: pointer;
-
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 32.89px */
-letter-spacing: -0.26px;
-padding:10px 20px;
+.sectionTitle {
+  font-weight: 600;
+  color: var(--theme-color);
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 0.75rem 0;
+  text-transform: none;
 }
 
-.applybtn {
-  border-radius: 10px;
-background: #832AF1;
-color: #FCFDFF;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 32.89px */
-letter-spacing: -0.26px;
-border: none;
-padding: 10px 20px;
-cursor: pointer;
+/* Card Themes */
+.purple {
+  --theme-color: #a88bff;
+  --theme-gradient: linear-gradient(135deg, #a88bff 0%, #6a44ff 100%);
+  --theme-header-gradient: linear-gradient(135deg, #5b21b6 0%, #312e81 100%);
+  --theme-background-gradient: linear-gradient(
+    135deg,
+    #1e3a8a 0%,
+    #312e81 100%
+  );
+  --theme-border-gradient: var(--theme-background-gradient);
+}
+.chocolateOrange {
+  --theme-color: #ffb347;
+  --theme-gradient: linear-gradient(135deg, #ffb347 0%, #ff842b 100%);
+  --theme-header-gradient: linear-gradient(135deg, #7c2d12 0%, #451a03 100%);
+  --theme-background-gradient: linear-gradient(
+    135deg,
+    #92400e 0%,
+    #451a03 100%
+  );
+  --theme-border-gradient: var(--theme-background-gradient);
+}
+.green {
+  --theme-color: #00d49b;
+  --theme-gradient: linear-gradient(135deg, #00d49b 0%, #009b72 100%);
+  --theme-header-gradient: linear-gradient(135deg, #065f46 0%, #022c22 100%);
+  --theme-background-gradient: linear-gradient(
+    135deg,
+    #064e3b 0%,
+    #022c22 100%
+  );
+  --theme-border-gradient: var(--theme-background-gradient);
+}
+.red {
+  --theme-color: #ff7a7a;
+  --theme-gradient: linear-gradient(135deg, #ff7a7a 0%, #ff4d4d 100%);
+  --theme-header-gradient: linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%);
+  --theme-background-gradient: linear-gradient(
+    135deg,
+    #7c2d12 0%,
+    #450a0a 100%
+  );
+  --theme-border-gradient: var(--theme-background-gradient);
 }
 
-
-.group {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
+.checkIcon {
+  color: #22c55e; /* Always green */
+  flex-shrink: 0;
 }
 
-.greenMain{
-  background: linear-gradient(98deg, #021C1E 2.16%, #06474B 97.48%);
-}
-
-.topGreen{
-border: 2px solid #058359;
-background: linear-gradient(90deg, rgba(237, 187, 82, 0.20) 0%, rgba(0, 66, 70, 0.20) 100%);
-}
-
-.redMain{
-  border-radius: 39px;
-background: linear-gradient(98deg, #310D0F 2.16%, #1E3984 97.48%);
-}
-
-.topred{
-border: 2px solid #6A4548;
-background: linear-gradient(90deg, rgba(108, 64, 157, 0.20) 0%, rgba(77, 79, 205, 0.20) 100%);
-}
-
-.noteGreen{
-  background: linear-gradient(90deg, #094E37 0%, rgba(76, 78, 207, 0.00) 100%);
-}
-
-.noteRed{
-  background: linear-gradient(90deg, #4F1740 0%, rgba(76, 78, 207, 0.00) 100%);
-}
-
-.downloadbtnGreen{
-  background: none;
-}
-
-.applybtnGreen{
-  border-radius: 10px;
-background: #04C988;
-}
-.applybtnRed{
-  border-radius: 10px;
-background: #1E90FF;
-}
-
-.durGreen, .levelGreen{
-  border-radius: 10px;
-/* border: 2px solid #057651; */
-/* background: rgba(4, 201, 136, 0.10); */
-}
-
-.pointsGreen li {
-border: 1.857px solid rgba(5, 118, 81, 0.53);
-background: rgba(158, 217, 255, 0.33);
-}
-.pointsRed li {
-  border-radius: 9.287px;
-border: 1.857px solid rgba(86, 5, 118, 0.53);
-background: rgba(158, 217, 255, 0.33);
-}
-
-.viewMoreWrapper {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.viewMoreButton {
-  background-color: #4F91F0;
-  color: white;
-  padding: 10px 20px;
+.card .applyButton {
+  background: var(--theme-apply-gradient);
+  color: #fff;
+  filter: brightness(1.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   border: none;
-  font-size: 16px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+}
+.card .applyButton:hover {
+  filter: brightness(1.25);
 }
 
+.card.purple .applyButton {
+  background: #b389ff;
+}
+.card.chocolateOrange .applyButton {
+  background: #d78f7c;
+}
+.card.green .applyButton {
+  background: #04c988;
+}
+.card.red .applyButton {
+  background: #ff6e6e;
+}
+.card.purple .applyButton:hover {
+  background: #c6a3ff;
+}
+.card.chocolateOrange .applyButton:hover {
+  background: #e39e8c;
+}
+.card.green .applyButton:hover {
+  background: #28daa4;
+}
+.card.red .applyButton:hover {
+  background: #ff8585;
+}
+
+.whyList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.whyList li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+  color: #e0e8ff;
+  font-size: 0.9rem;
+}
+
+.skillsTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skillTag {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #e0e8ff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.eligibility {
+  grid-column: 1 / -1;
+  margin-top: auto; /* Pushes to bottom */
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+  color: #e0e8ff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.eligibilityTitle {
+  color: var(--theme-color);
+  font-weight: 600;
+}
+
+.certLogos {
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+  max-width: 150px;
+}
+
+.metaInfo {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  color: #a0a8c2;
+}
+.metaItem svg {
+  color: #a0a8c2;
+  width: 18px;
+  flex-shrink: 0;
+}
+.metaItem strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: auto; /* Pushes to bottom */
+}
+.brochureButton,
+.applyButton {
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+}
+.brochureButton {
+  background-color: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.brochureButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.applyButton {
+  color: #fff;
+}
+
+.viewMoreContainer {
+  text-align: center;
+  margin-top: 2rem;
+}
+.viewMoreButton {
+  background: #fff;
+  color: #4b88ff;
+  border: 1px solid #d8e6ff;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
 .viewMoreButton:hover {
-  background-color: #3b74c7;
+  background: #f0f6ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(75, 136, 255, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .programSectionWrapper {
+    padding: 2rem 1rem;
+  }
+  .mainContent {
+    grid-template-columns: 1fr;
+  }
+  .cardsContainer {
+    max-height: none;
+    padding-right: 0;
+  }
+  .mainContent > :first-child {
+    display: none;
+  }
+  .heading {
+    font-size: 1.75rem;
+  }
+  .subheading {
+    font-size: 1rem;
+  }
+  .cardTitle {
+    font-size: 1.25rem;
+  }
+  .cardHeader {
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .cardTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  .eligibility {
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* ----------  DESKTOP-SPECIFIC TWEAKS  ---------- */
+@media (min-width: 1024px) {
+  /* A fixed width right panel ensures consistent alignment across all cards */
+  .cardBody {
+    grid-template-columns: minmax(0, 1fr) 280px;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  /* Desktop: Left panel sections remain vertical but with better spacing */
+  .leftPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* Better spacing for right panel */
+  .rightPanel {
+    gap: 1rem;
+  }
+
+  /* Desktop font size increases */
+  .cardTitle {
+    font-size: 1.75rem;
+  }
+
+  .cardDescription {
+    font-size: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .whyList li {
+    font-size: 1rem;
+  }
+
+  .skillTag {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .metaItem {
+    font-size: 1rem;
+  }
+
+  .brochureButton,
+  .applyButton {
+    font-size: 1rem;
+    padding: 0.875rem 1.25rem;
+  }
+
+  /* Program eligibility spans full width at bottom */
+  .eligibility {
+    grid-column: 1 / -1;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* Ensure metaInfo has proper spacing */
+  .metaInfo {
+    padding: 1.25rem;
+    gap: 1.25rem;
+  }
+
+  /* Action buttons spacing */
+  .actionButtons {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* Skills tags in single row on desktop without wrapping */
+  .skillsTags {
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+
+  .metaItem {
+    font-size: 1rem;
+  }
+}
+
+/* Theme-specific tint for metaInfo container to closely match design */
+.card.purple .metaInfo {
+  background-color: rgba(168, 139, 255, 0.12);
+}
+.card.chocolateOrange .metaInfo {
+  background-color: rgba(255, 132, 43, 0.12);
+}
+.card.green .metaInfo {
+  background-color: rgba(0, 212, 155, 0.12);
+}
+.card.red .metaInfo {
+  background-color: rgba(255, 122, 122, 0.12);
 }

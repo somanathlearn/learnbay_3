@@ -558,13 +558,13 @@
   padding-top: 0.5rem;
 }
 
-/* Mobile button group */
+/* Mobile button group - side by side */
 @media (max-width: 767px) {
   .buttonGroup {
     flex-direction: row;
     gap: 0.75rem;
     padding-top: 1rem;
-    align-items: center;
+    justify-content: center;
     width: 100%;
   }
 }
@@ -573,6 +573,22 @@
   .buttonGroup {
     gap: 0.5rem;
     padding-top: 0.75rem;
+  }
+}
+
+/* Desktop button group - side by side */
+@media (min-width: 768px) {
+  .buttonGroup {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .buttonGroup {
+    gap: 1.5rem;
   }
 }
 
