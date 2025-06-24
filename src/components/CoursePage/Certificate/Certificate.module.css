@@ -1,0 +1,393 @@
+.infop {
+  color: black;
+  margin: 100px 0px 10px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.ptop {
+  font-size: 20px;
+  color: #767676;
+  line-height: 26px;
+  text-align: center;
+}
+.header {
+  padding: 40px 0 0;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  background: linear-gradient(90deg, #262626 0%, #393939 99.02%);
+  margin-top: 50px;
+}
+.pWrap {
+  display: flex;
+  gap: 60px;
+  padding: 8px 100px 0 100px;
+  position: relative;
+  border-radius: 4px;
+}
+.pWrapN {
+  display: flex;
+  gap: 60px;
+  padding: 8px 100px 0 100px;
+  position: relative;
+  border-radius: 4px;
+}
+.line {
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid #0072bc;
+  height: 100%;
+}
+.header p {
+  font-size: 22px;
+  margin: 0;
+  padding: 8px 0px;
+  cursor: pointer;
+  color: #fff;
+}
+.activeP {
+  color: #FE7A36 !important;
+  border-bottom: 2px solid #FE7A36;
+  font-weight: 600 !important;
+  font-size: 16px;
+}
+.MicroCert {
+  display: grid;
+  grid-template-columns: 46% 54%;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px 70px 100px;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #262626 0%, #393939 99.02%);
+}
+.rightSide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column;
+}
+.certificate h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.gridPanel {
+  display: grid;
+  grid-template-columns: 47% 49%;
+  gap: 30px;
+  padding: 0px;
+}
+.leftSide {
+  display: flex;
+
+  padding: 0px 80 0 0;
+}
+.leftSideP {
+  padding: 0px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px;
+}
+.leftSide h6,
+.rightSide h6 {
+  margin: 0;
+  margin-top: -30px;
+  padding-bottom: 15px;
+  margin-bottom: 26px;
+  border-bottom: 2px solid #FE7A36;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.leftSide p,
+.rightSide p {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+.checkCircle {
+  margin-right: 15px;
+  font-size: 20px;
+  background: green;
+  border-radius: 50%;
+}
+.CertificateDiv {
+  padding-left:80px;
+}
+.DSAFresherCertificateImgDiv{
+  padding: 0 !important;
+}
+.DSAFresherCertificateImg{
+  padding-left: 70px !important;
+}
+.CertificateDiv img {
+  width: auto;
+  height: 320px;
+}
+
+
+.ibmImg img{
+  width: 500px;
+  height: 400px;
+}
+
+.IItImag img {
+  width: auto;
+  height: 320px;
+}
+.iitImage{
+  padding-left: 100px;
+  height: 410px !important;
+}
+@media (max-width: 1281px) {
+  .certificate {
+    padding: 0px 40px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+  }
+ 
+  .leftSideP {
+    padding: 20px;
+  }
+  .MicroCert {
+    padding: 50px 40px 50px 100px;
+  }
+
+  .leftSide h6,
+  .rightSide h6 {
+    font-size: 24px;
+  }
+}
+.noteIt{
+color: #fff;
+position: relative;
+  font-size: 11px;
+  top: 40px;
+}
+
+@media screen and (max-width:1181px) {
+  .CertificateDiv {
+    padding-left:40px;
+  }
+
+  .CertificateDiv img {
+    width: auto;
+    height: 290px;
+  }
+  
+}
+@media (max-width: 1025px) {
+  .leftSideP {
+    padding: 0px 10px;
+  }
+  .rightSide h6 {
+    margin-top: 0 !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    margin-bottom: 10px !important;
+  }
+  .rightSide p {
+    margin: 10px 0;
+  }
+  .CertificateDiv {
+    padding-left:0px;
+  }
+  .CertificateDiv img {
+    width: auto;
+    height: 250px;
+  }
+  .IItImag img {
+    height: 270px;
+  }
+}
+@media (min-width: 641px) and (max-width: 960px) {
+  .certificate {
+    padding: 0px 14px;
+    margin-top: 30px;
+  }
+  .leftSideP {
+    padding: 0px;
+    margin: 5px;
+  }
+}
+@media (max-width: 641px) {
+  .header {
+    padding: 10px 20px 0px 20px;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .infop {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  .CertificateDiv {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pWrap {
+    display: grid;
+    grid-template-columns: 33% 47% 33%;
+    grid-gap: 5px;
+    gap: 5px;
+    padding: 0px;
+    overflow: scroll;
+  }
+  .arrowImg {
+    display: none;
+  }
+  .line {
+    width: 1px;
+  }
+  .gridPanel {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+    gap: 0px;
+    box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
+  }
+  .MicroCert {
+    display: flex;
+    flex-flow: column-reverse;
+    padding: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 0px;
+  }
+  .rightSide p {
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+  .rightSide h6 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin-bottom: 0 !important;
+  }
+  .header p {
+    font-size: 18px;
+    width: max-content;
+    padding: 5px 0px;
+    font-weight: 400;
+  }
+  .cyberwrap p{
+  font-size: 14px;
+  }
+  .activeP {
+    font-size: 16px;
+  }
+  .gridPanel {
+    width: 100%;
+  }
+  .leftSide,
+  .rightSide {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 0px;
+  }
+  .leftSideP {
+    padding: 20px 20px 0 20px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 0;
+  }
+  .leftSide h6,
+  .rightSide h6 {
+    margin: 0;
+    padding-bottom: 8px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    width: 100%;
+  }
+  .checkCircle {
+    margin-right: 5px;
+  }
+  .leftSide p,
+  .rightSide p {
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+  .ibmImg img{
+    width: auto;
+    height: 400px;
+  }
+  .iitImage{
+    padding: 0;
+  }
+
+  .IItImag img {
+    width: 100%;
+    height: auto;
+  }
+  .CertificateDiv img {
+    width: 300px;
+    height:auto;
+    background-color: yellow;
+  }
+
+  .cyberwrap{
+  display: flex;
+  gap: 20px;
+  padding: 10px 28px;
+
+  }
+  .noteIt{
+  top: 10px;
+    }
+}
+
+@media (max-width: 481px) {
+  .checkCircle {
+    font-size: 15px;
+  }
+
+  .pWrap {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 12% 24% 45%;
+    gap: 10px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .infop {
+    color: #fff;
+    padding-top: 40px;
+  }
+  .ptop {
+    color: #d6d6d6;
+    font-size: 16px;
+  }
+
+  .Certificate {
+    background: linear-gradient(90deg, #262626 0%, #393939 99.02%);
+  }
+  .Certificate img {
+    background: linear-gradient(90deg, #262626 0%, #393939 99.02%);
+  }
+  .ibmImg img{
+    width: auto;
+    height: 250px;
+  }
+  .DSAFresherCertificateImg{
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .cyberwrap p {
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+}

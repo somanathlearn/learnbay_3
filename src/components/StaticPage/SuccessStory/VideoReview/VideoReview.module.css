@@ -1,0 +1,19 @@
+.BoxDiv {
+  margin-top: 50px;
+}
+.container {
+  padding: 50px;
+  background: linear-gradient(180deg, #010101 0%, #064975 100%);
+}
+.container h4 {
+  text-align: center;
+  color: #fff;
+}
+.imgwrapper {
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+padding: 8px;
+  }
+}

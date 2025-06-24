@@ -1,0 +1,383 @@
+.main {
+  margin: 100px 0;
+}
+
+.main h2 {
+  text-align: center;
+} /* Existing styles for the main component */
+.specialOfferBanner {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f2eefd; /* Light purple background */
+  border-radius: 50px; /* Rounded edges for pill shape */
+  padding: 15px 25px; /* Spacing inside the pill */
+  gap: 30px; /* Space between elements */
+  margin-top: 20px; /* Optional spacing from the container above */
+}
+
+.stickySpecialOffer {
+  display: none;
+}
+
+.specialOfferTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7f59e8; /* Purple color */
+  margin-right: 5px;
+
+  font-style: italic;
+}
+
+.offerDetails {
+  font-size: 18px;
+  color: #000;
+  font-style: italic;
+}
+
+.offerDetails .highlight {
+  color: #0383ff;
+  font-weight: 700;
+}
+
+.validityBadge {
+  background-color: #b80303; /* Red background */
+  color: #fff; /* White text */
+  border-radius: 12px; /* Small pill shape */
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  width: 165px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+/* Sentinel element to detect scroll end */
+.sentinel {
+  height: 1px;
+  width: 100%;
+}
+/* .stickyContainer {
+  position: relative;
+} */
+/* Sticky banner for mobile view */
+
+/* Add additional existing styles for other elements below as needed */
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 68%;
+  gap: 30px;
+  width: 100%;
+  margin: 50px auto;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: 35px;
+  border: 2px solid #dbdbdb;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.insideMain {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 41% 0% 50%;
+  margin-top: 20px;
+}
+.container h4 {
+  color: #212121;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%; /* 56.925px */
+}
+
+.left h5 {
+  color: #212121;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 31.25px */
+}
+
+.left ul li {
+  color: #212121;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.295px; /* 119.523% */
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0;
+}
+.ryt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pEmi {
+  margin-top: 16px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 158%; /* 31.6px */
+}
+
+.ryt h5 {
+  color: #212121;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 31.25px */
+}
+
+.ryt h3 {
+  color: #838383;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 158%; /* 47.4px */
+}
+
+.span {
+  color: #838383;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158%;
+}
+
+.ryt h6 {
+  color: #212121;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 71.1px */
+}
+
+.btn {
+  position: relative;
+  padding: 16px 20px;
+  border-radius: 12px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  background: linear-gradient(to right, rgb(10, 10, 10), rgb(20, 117, 215));
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease, opacity 0.6s ease;
+  opacity: 0;
+}
+
+.btn:hover::after {
+  width: 200%;
+  height: 200%;
+  opacity: 1;
+}
+
+.batch {
+  border-radius: 32px;
+  background: #fdf3ee;
+  padding: 20px;
+  margin: 20px 5px;
+  position: relative;
+}
+
+.batchHead {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 158%; /* 39.5px */
+}
+
+.weekday h6 {
+  color: #fe7a36;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 158%; /* 31.6px */
+}
+
+.weeknd h6 {
+  color: #fe7a36;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 158%; /* 31.6px */
+}
+
+.dwbatch {
+  display: flex;
+  gap: 30px;
+  margin: 10px 0;
+}
+.Date {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 158%; /* 31.6px */
+}
+
+.wT p {
+  color: #707070;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 158%; /* 31.6px */
+}
+.wT span {
+  color: #484848;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158%; /* 31.6px */
+}
+
+.weeknd,
+.weekday {
+  margin-top: 20px;
+}
+.fill {
+  display: none;
+}
+
+.hrline {
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+.fill {
+  position: absolute;
+  left: 246px;
+  top: 220px;
+}
+.wT {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Emipopup {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px 40px;
+  /* width: 800px; */
+  margin-top: 100px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  /* margin-left: 300px; */
+  height: 450px;
+  margin: 150px 220px 20px 220px;
+  border-radius: 20px;
+}
+.clostbtn span {
+  color: #767676;
+}
+
+.clostbtn {
+  color: #484848;
+  cursor: pointer;
+}
+.clostbtn :hover {
+  color: rgb(0, 162, 255);
+}
+
+@media screen and (max-width: 1181px) {
+  .mainContainer {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .specialOfferBanner {
+    display: none;
+  }
+
+  .stickySpecialOffer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f7f3ff;
+    /* border-radius: 50px 50px 0 0; */
+    padding: 15px 25px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+}
+@media screen and (max-width: 641px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+    align-items: normal;
+  }
+  .insideMain {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .fill {
+    display: none;
+  }
+  .container h4 {
+    font-size: 26px;
+  }
+  .container {
+    padding: 20px;
+  }
+
+  .Emipopup {
+    margin: -25px;
+    margin-top: 200px;
+    padding: 1px 9px;
+    height: 300px;
+  }
+}

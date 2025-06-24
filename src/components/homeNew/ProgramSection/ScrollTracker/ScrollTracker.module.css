@@ -1,0 +1,70 @@
+.progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #04C988;
+    transition: height 0.2s ease-in-out;
+    border-radius: 4px;
+}
+  
+.wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.track {
+    width: 16px;
+    background-color: rgba(224, 224, 224, 0.5);
+    height: 100%;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+}
+  
+.progress {
+    background: linear-gradient(to bottom, #080808, #0b56d8);
+    width: 100%;
+    height: 0%;
+    transition: height 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 0 4px rgba(4, 201, 136, 0.4);
+}
+  
+.dot {
+    position: absolute;
+    left: -6px;
+    width: 12px;
+    height: 12px;
+    background-color: #999;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+}
+  
+.active {
+    background-color: #161717;
+    transform: scale(1.2);
+}
+  
+.tooltip {
+    position: absolute;
+    left: 20px;
+    top: -4px;
+    background-color: #333;
+    color: white;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}

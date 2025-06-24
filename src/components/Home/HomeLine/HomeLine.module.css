@@ -1,0 +1,54 @@
+.feature {
+  width: 100%;
+  margin-top: 5px; /* Is this intentional? It looks like a typo */
+  text-align: center;
+  padding: 20px;
+}
+
+.feature p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.feature span {
+  color: #2db621;
+}
+.containerMobile {
+  display: none;
+}
+
+.container {
+  padding: 40px 300px;
+}
+
+/* Adjusted the style for smaller screens */
+@media (max-width: 641px) {
+  .feature .container {
+    display: none;
+  }
+
+  .feature p {
+    font-size: 18px;
+  }
+
+  .featureIcons {
+    color: #edb552;
+    font-size: 35px; /* Removed quotes around 35px */
+  }
+
+  .containerMobile {
+    display: block;
+  }
+
+  .feature {
+    padding: 0px; /* Adjusted the padding */
+    margin-top: 30px;
+  }
+
+  .containerMobile img {
+    margin: auto;
+    margin-top: 30px;
+    width: 320px;
+    height: auto;
+  }
+}

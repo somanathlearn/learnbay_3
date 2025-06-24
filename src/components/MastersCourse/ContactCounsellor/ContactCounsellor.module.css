@@ -1,0 +1,203 @@
+.consmain {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(228, 245, 255, 0.6) 0.16%,
+    rgba(255, 246, 233, 0.6) 99.84%
+  );
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  padding: 12px 100px 12px 100px;
+  margin: 80px 0px 80px 0px;
+  padding: 10px 100px 0px 180px;
+  gap: 70px;
+}
+.consmain h4 {
+  color: #2e2e2e;
+  font-size: 27.232px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: 126.5%;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+.consmain p {
+  color: #5e5e5e;
+  font-size: 19.924px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 140.5%;
+  padding-right: 38px;
+}
+.conbtn {
+  /* padding: 20px;  */
+  margin: 20px -2px 0px 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.conbtn button {
+  border-radius: 2.585px;
+  border: 1.862px solid rgba(0, 0, 0, 0.7);
+  padding: 10px 17px;
+  display: flex;
+  gap: 8px;
+  color: #2e2e2e;
+  font-size: 17.339px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.5%;
+  background: none;
+  cursor: pointer;
+  align-items: center;
+}
+.consbtn {
+  color: #fff;
+  text-align: center;
+  /* font-family: Open Sans; */
+  font-size: 15.713px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155%;
+  letter-spacing: -0.131px;
+  text-transform: capitalize;
+  border-radius: 2.714px;
+  background: #0072bc;
+  border: none;
+  padding: 10px 44px;
+  margin: 25px 0px;
+  cursor: pointer;
+}
+.inf:hover {
+  border: 1px solid #0072bc;
+}
+.consbtn1 :hover {
+  background-color: #fff;
+  color: #0072bc;
+  border: 1px solid #0072bc;
+}
+
+.conimg {
+  /* border: 3px solid orange; */
+  padding: 0px;
+  color: transparent;
+  /* margin-left: 100px; */
+  /* margin-bottom: -47px; */
+  /* background-color: blue; */
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.conimg img {
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  left: 120px;
+  gap: 40px;
+  /* margin-bottom: -20px; */
+}
+
+.consbtn1 :hover {
+  background-color: #fff;
+  color: #0072bc;
+  border: 1px solid #0072bc;
+}
+
+@media (max-width: 641px) {
+  .consmain {
+    display: flex;
+    padding: 21px 25px 37px 25px;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.55; */
+    margin: 50px 0px;
+    background: linear-gradient(90deg, #e9f1f6 0.16%, #f4f1eb 99.84%);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  }
+  .consmain h4 {
+    text-align: center;
+    line-height: 28px;
+    color: #2e2e2e;
+    font-size: 20px;
+  }
+  .consmain p {
+    color: #5e5e5e;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0px;
+    line-height: 135.5%;
+  }
+  .conbtn {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .conbtn button {
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 11px 0px 10px 5px;
+    font-weight: 550;
+    display: grid;
+    grid-template-columns: 13% 83%;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px 4px;
+    gap: 5px;
+  }
+
+  .consbtn {
+    background-color: #0072bc;
+    margin: 20px 1px;
+    padding: 10px 16px 10px 16px;
+    /* width: 80%; */
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.654px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .consbtn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .conicon {
+    /* background-color: red; */
+    /* padding: 22px; */
+    padding: none;
+    margin: 0px;
+    font-size: 22px;
+  }
+  .conimg img {
+    display: none;
+  }
+
+  .conimg {
+    display: none;
+  }
+}
+
+@media (max-width: 381px) {
+  .consmain h4 {
+    text-align: center;
+    line-height: 30px;
+    color: #2e2e2e;
+    padding: 0px;
+    font-size: 21px;
+  }
+}

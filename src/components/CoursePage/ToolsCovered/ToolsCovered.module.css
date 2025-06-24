@@ -1,0 +1,43 @@
+.toolmain {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.toolmobile img {
+  display: none;
+}
+
+
+@media screen  and (max-width: 1024px) {
+  .toolmain img {
+    width: fit-content;
+  
+  }
+}
+
+
+@media screen and (max-width: 641px) {
+.toolmain img {
+  display: none;
+}
+.toolmobile img {
+  display: block;
+  margin: 6px;
+  padding: 0px 10px;
+}
+.toolmain h2{
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+
+
+}

@@ -1,0 +1,51 @@
+.container {
+  padding: 50px;
+  background: #f0f8fd;
+  margin-top: 40px;
+}
+.container h4 {
+  text-align: center;
+  /* background: linear-gradient(
+    89deg,
+    #0072bc 3.01%,
+    #63a657 34.31%,
+    #edbe41 65.62%,
+    #d0503a 96.92%
+  ); */
+  background: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.BoxDiv {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 25px;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  .BoxDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 34px;
+    gap: 12px;
+  }
+  .container h4 {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 153%;
+    -webkit-text-fill-color: black;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,145 @@
+.proImgWrap {
+  cursor: pointer;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.container h4 {
+  margin-bottom: 0px;
+  font-size: 34px;
+  margin-top: 50px;
+  color: #000;
+}
+.proImgWrap h2 {
+  display: none;
+}
+
+.spanPara {
+  background: linear-gradient(90deg, #414141 28.42%, #905a08 82.05%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.newPara {
+  margin: 10px 0px 40px 0px;
+  font-size: 19px;
+}
+
+.First {
+  padding: 0px 140px 0px 140px;
+  display: grid;
+  grid-template-columns: 50% 48%;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.reviewMain {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+}
+
+.mobileView {
+  display: none;
+}
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.imgDiv img {
+  width: auto;
+  height: 300px;
+}
+
+.leftimg img{
+width: 270px;
+height: auto;
+}
+@media (max-width: 1281px) {
+  .First {
+    padding: 0px 80px;
+    gap: 20px;
+  }
+  .reviewMain {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 641px) {
+  .container {
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+    margin: 30px 0px 10px 0px;
+  }
+  .imgDiv img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+  }
+
+  .mobileH4 {
+    margin: 0px 20px;
+  }
+
+  .First {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .spaceImg {
+    padding: 0px 20px;
+  }
+  .proImgWrap {
+    padding: 13px 30px 0px 0px;
+    display: none;
+  }
+  .proImgWrap h2 {
+    color: #414141;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.5%;
+    display: flex;
+    justify-content: space-around;
+    margin: 14px;
+  }
+  .container h4 {
+    margin-top: 0px;
+    font-size: 28px;
+  }
+
+  .newPara {
+    margin: 0;
+    font-size: 16px;
+    color: #6c6c6c;
+  }
+
+  .reviewMain {
+    display: none;
+  }
+  .mobileView {
+    display: block;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .mobileView h2 {
+    color: #414141;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.5%;
+    display: flex;
+    justify-content: space-around;
+    margin: 26px 0px 10px 0px;
+  }
+}

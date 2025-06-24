@@ -1,0 +1,129 @@
+.mainContianr {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.persondiv{
+    border-radius: 66.176px;
+border: 0.662px solid #0383FF;
+background: #DBEAFE;
+padding:6px 20px;
+width: fit-content;
+}
+.persondiv p {
+    margin-top: 0;
+    color: #0383FF;
+text-align: center;
+font-size: 16.865px;
+font-style: normal;
+font-weight: 600;
+line-height: 156%; /* 32.55px */
+letter-spacing: 0.209px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.highlet{
+    color: #676969;
+font-size: 18.291px;
+font-style: normal;
+font-weight: 500;
+line-height: 156%; /* 44.134px */
+letter-spacing: 0.283px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.left h4 {
+    color: #3D3D3D;
+font-size: 35.45px;
+font-style: normal;
+font-weight: 700;
+line-height: 137%; /* 74.597px */
+}
+.blues{
+    color: #0383FF;
+
+}
+
+.desc{
+    color: #898989;
+font-size: 16.291px;
+font-style: normal;
+font-weight: 500;
+line-height: 156%; /* 44.134px */
+letter-spacing: 0.283px;
+}
+
+.buttonmain{
+border-radius: 10.707px;
+background: linear-gradient(90deg, #315DEB 0%, #8539EA 100%);
+width: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding:16px 40px;
+margin-top: 40px;
+
+}
+.buttonmain button{
+    background: transparent;
+    border: none;
+    color: #FFF;
+font-size: 18.797px;
+font-style: normal;
+font-weight: 600;
+line-height: 153%; /* 44.059px */
+}
+
+.right{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.boxcontainer{
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+border: 2px solid #E2E2E2;
+background: #FFF;
+box-shadow: 0px 15px 20.6px 0px rgba(176, 176, 176, 0.71);
+align-items: center;
+padding: 20px;
+}
+
+.svgDiv{
+    background: #D2FFE8;
+    padding: 20px;
+}
+
+.content h5 {
+    color: #121212;
+font-size: 22.291px;
+font-style: normal;
+font-weight: 700;
+line-height: 156%; /* 44.134px */
+letter-spacing: 0.283px;
+}
+
+.content p {
+    margin-top: 0;
+    color: #898989;
+font-size: 18.291px;
+font-style: normal;
+font-weight: 500;
+line-height: 156%; /* 44.134px */
+letter-spacing: 0.283px;
+}

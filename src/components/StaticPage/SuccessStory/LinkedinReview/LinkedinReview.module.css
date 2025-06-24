@@ -1,0 +1,91 @@
+.LinkedinReviewMain {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 30px 0px;
+  margin-top: 90px; */
+}
+.LinkedinReviewMain h2 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 153%;
+  /* 68.85px */
+  margin-bottom: 40px;
+}
+/* .LinkedinReviewBox {
+    display: flex;
+    flex-direction: row;
+    border-radius: 28px;
+border-top: 6px solid #0072BC;
+background: #FFF;
+box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.25);
+} */
+.LinkedinReviewBox {
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid black; */
+  border-radius: 28px;
+  border-top: 6px solid #0072bc;
+  background: #fff;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+.LinkedinReviewBoxHead {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 27% 27% 27%;
+  grid-gap: 50px;
+  gap: 50px;
+  margin: 0px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+.btn {
+  border-radius: 3px;
+  background: #0072bc;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153%;
+  margin-top: 20px;
+  padding: 8px 25px;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .LinkedinReviewBoxHead {
+    display: flex;
+    flex-flow: column;
+    padding: 2px 17px;
+    gap: 20px;
+  }
+  .LinkedinReviewMain {
+    margin: 10px;
+  }
+  .btn {
+    border-radius: 3px;
+    background: #0072bc;
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153%;
+    margin-top: 20px;
+    padding: 8px 25px;
+    border: none;
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "title": "DSA + System Design + GenAI",
+    "description": "Master Proficiency in System Design ( HLD + LLD ) with real Projects",
+    "boxes": [
+      {
+        "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Sparkling.webp",
+        "imgAlt": "Practical",
+        "title": "Backend Engineering Specialization",
+        "description": "Build scalable backend systems, automate workflows. Work on real projects to gain skills in system architecture, API development",
+        "width": "50",
+        "height": "50"
+      },
+      {
+        "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ProjectManagement.webp",
+        "imgAlt": "Practical",
+        "title": "Full Stack Specialization",
+        "description": "Includes specialization in GenAI, DevOps, Full Stack [MERN], and Product Management (tech) for software engineers",
+        "width": "50",
+        "height": "50"
+      },
+      {
+        "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/IIT.webp",
+        "imgAlt": "Practical",
+        "title": "Gen-AI Certification for Developers",
+        "description": "Get Gen-AI Developer Certification from E&ICT Academy IIT Guwahati",
+        "width": "50",
+        "height": "50"
+      }
+    ]
+  }
+  

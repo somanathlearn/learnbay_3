@@ -1,0 +1,143 @@
+.main {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+.Header {
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 320px;
+  justify-content: space-between;
+}
+.CardManger {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 400px;
+  justify-content: space-between;
+}
+.headerdiv {
+  display: grid;
+  grid-template-columns: 70% 26%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.redText {
+  font-weight: 600;
+}
+
+.iconDIv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiperDiv {
+  display: flex;
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.greenBox {
+  border-radius: 0px 5px;
+  background: #2db621;
+  margin: 0;
+  padding: 4px 20px;
+  font-size: 20px;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.greenBox p {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 158%; /* 55.3px */
+  text-align: justify;
+  text-wrap: balance;
+}
+.Card h6 {
+  color: #858585;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143%; /* 35.75px */
+  width: 100%;
+  max-width: 250px;
+}
+.lightBox {
+  border-radius: 5px;
+  background: rgba(254, 122, 54, 0.1);
+  padding: 20px;
+}
+
+.lightBox p {
+  list-style: none;
+  color: #616161;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.duration {
+  display: flex;
+  float: right;
+  background-color: #dedede;
+  padding: 3px 9px;
+  border-radius: 2px;
+  color: #6c6c6c;
+  position: relative;
+  top: 10px;
+}
+
+.arrayList li {
+  color: #6c6c6c;
+  padding: 4px 0;
+  font-size: 14px;
+}
+.spanHighlet{
+  color: #0072bc;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 641px) {
+  .swiperDiv {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .headerdiv{
+    grid-template-columns: 60% 30%;
+  }
+  .Card h6 {
+    font-size: 14px;
+  }
+}

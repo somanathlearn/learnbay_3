@@ -1,0 +1,154 @@
+.formWrapper {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 55% 40%;
+
+  gap: 70px;
+  height: 100%;
+  padding-right: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.formWrapper h1 {
+  margin-bottom: 30px;
+  width: max-content;
+  border-bottom: 2px solid #606060;
+}
+.leftWrap {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  flex-basis: 45%;
+  background-color: #606060;
+  width: 100%;
+}
+.formWrapper form {
+  background-color: white;
+  padding: 50px 60px;
+  gap: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+}
+.inputWrap {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.inputWrap label,
+.phoneWrap label {
+  color: #606060;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.inputWrap input {
+  height: 35px;
+  outline: 0;
+  padding: 5px 10px;
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.inputWrap select {
+  height: 35px;
+  outline: 0;
+  padding: 5px 10px;
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+
+  color: #9c9c9c;
+}
+.formWrapper form button {
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  width: 100%;
+  color: white;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #2bb621;
+}
+/* Define styles for the upload button and container */
+.uploadButtonContainer {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.uploadButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  padding: 8px 16px;
+  border-bottom: 1px solid #e1e1e1;
+  color: #9c9c9c;
+  font-size: 12px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+/* Hide the actual file input */
+.uploadButton input[type="file"] {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.phoneWrap {
+  margin-bottom: 10px;
+
+  height: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.phoneInput {
+  height: 35px;
+  display: flex;
+  border: 0;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+
+  padding: 5px 0px;
+}
+.phoneInput input {
+  outline: 0;
+  border: 0;
+  padding: 5px 0;
+}
+@media (max-width: 761px) {
+  .leftWrap {
+    display: none;
+  }
+  .formWrapper {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      rgba(228, 245, 255, 0.6) 0.16%,
+      rgba(255, 246, 233, 0.6) 99.84%
+    );
+
+    grid-template-columns: 100%;
+    padding-right: 0;
+    margin-top: 0;
+  }
+  .formWrapper form {
+    width: 90%;
+    margin-left: 20px;
+    padding: 50px 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .formWrapper form h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}

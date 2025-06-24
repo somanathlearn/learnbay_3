@@ -1,0 +1,99 @@
+.wrapper {
+  padding: 50px 100px 70px 100px;
+}
+.content {
+  background-color: #0c67a3;
+  width: 100%;
+  border-radius: 5px;
+  padding: 35px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.contentWrap {
+  flex-flow: column;
+  /* padding: 10px 20px; */
+}
+
+.content h4 {
+  color: WHITE;
+  font-size: 24px !important;
+  text-align: left !important;
+  margin-bottom: 5px;
+}
+
+.content p {
+  color: #ffffff;
+  margin: 0;
+  text-align: left !important;
+  font-size: 16px !important;
+}
+.wrapper button {
+  background-color: #edbb52 !important;
+  color: #000;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.dIcon {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+@media (max-width: 1281px){
+  .content h4{
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 1024px){
+  .content h4{
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 961px){
+  .content h4{
+    font-size: 15px !important;
+  }
+
+  .wrapper{
+    padding: 40px 70px 80px;
+  }
+
+
+}
+
+@media (max-width: 800px){
+  .wrapper{
+    padding: 40px 70px 80px;
+  }
+
+}
+
+@media (max-width: 641px){
+
+  .wrapper{
+    padding: 30px 24px 40px;
+  }
+
+}
+
+@media (max-width: 481px) {
+  .wrapper {
+    padding: 20px;
+    margin: 0px;
+  }
+  .content {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+  .content h4,
+  .content p {
+    text-align: center !important;
+  }
+}

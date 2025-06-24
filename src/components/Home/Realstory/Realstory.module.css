@@ -1,0 +1,380 @@
+/* Slider.module.css */
+.leftcardmain {
+  padding: 30px 0px;
+  border-radius: 8px;
+  border: 3px solid #FE7A36;
+  background: linear-gradient(85deg, #333 -0.08%, #412700 98.16%);
+}
+
+.leftcard {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 60%;
+}
+.greenbox1 {
+  display: inline;
+  margin-left: 480px;
+  justify-content: right;
+  margin-right: 15px;
+  padding: 6px 8px;
+  background-color: #72bc00;
+  color: #fff;
+  font-size: 16.513px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%; /* 25.949px */
+  border-radius: 3px;
+}
+
+.ytbtn {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 10px 0px 10px;
+}
+
+.ytbtn svg {
+  color: #ffa5a5;
+  font-size: 25px;
+  margin-top: 5px;
+}
+.ytbtn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  color: #FE7A36;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 18.975px */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 1px 16px;
+  background-color: #281902;
+  border: none;
+  border-radius: 4px;
+}
+.ytbtn p {
+  color: #FE7A36;
+  margin: 0px;
+}
+.btn {
+  background-color: none;
+}
+
+.insideryt h2 {
+  color: #FE7A36;
+  font-size: 22.27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 153%; /* 44.783px */
+}
+.insideryt h4 {
+  color: #fff;
+  font-size: 20.042px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153%; /* 38.314px */
+}
+.insideryt p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153%; /* 30.6px */
+  padding: 0px 0px 0px 5px;
+}
+
+.downcontent {
+  text-align: center; /* Center the content */
+}
+
+.centerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separator {
+  width: 2px; /* Adjust the width of the separator line */
+  background-color: #000; /* Set the color of the separator line */
+  margin: 0 10px; /* Add margin for spacing */
+}
+
+.doubleSlider {
+  position: relative;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.doubleSlider .swiper-slide {
+  transition: opacity 0.5s ease;
+}
+
+/* Additional styles for the big image */
+.big-image img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.doubleSlider {
+  position: relative;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important; /* Ensure active profile is fully visible */
+}
+
+/* Add transition for opacity */
+.doubleSlider .swiper-slide {
+  transition: opacity 0.5s ease;
+}
+
+/* Add these styles for left big image and faded non-active profiles */
+.slider-container {
+  position: relative;
+}
+
+.big-image-container {
+  overflow: hidden;
+}
+
+.big-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.doubleSlider {
+  position: relative;
+}
+
+.active {
+  opacity: 1;
+  border: 2px solid #FE7A36;
+  border-radius: 8px;
+}
+.sliderContent {
+  opacity: 0.1; /* Set the opacity for non-active profiles */
+  transition: opacity 0.5s ease;
+}
+
+.sliderContent.active {
+  opacity: 1;
+  border: 2px solid #FE7A36;
+  border-radius: 8px;
+}
+
+/* Add styles for faded non-active profiles */
+.doubleSlider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 50%
+  );
+  pointer-events: none;
+}
+
+.slider-container {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 55% 38%;
+  margin: 50px 80px 0px 80px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.big-image-container {
+  flex: 1;
+  width: 85%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.activeProfile svg {
+  color: #ffffff;
+}
+
+.big-image {
+  width: 100%;
+  max-height: 500px;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.big-image img {
+  width: 100%;
+  height: auto;
+}
+
+.slider {
+  flex: 5;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin: 30px 61px 30px 13px;
+}
+
+.slide {
+  display: block;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-item {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+  transition: filter 0.5s ease-in-out;
+}
+
+.slide-item.blur {
+  filter: blur(4px);
+}
+
+.header {
+  background: linear-gradient(90deg, #000 35.81%, #8f5600 68.68%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 153%;
+}
+
+.downcontent {
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+  grid-gap: 0px;
+  gap: 0px;
+  border-radius: 8.098px;
+  background: #f6f6f6;
+  padding: 14px 14px;
+  margin-right: 0px;
+  text-align: left;
+}
+.downcontent hr {
+  margin-right: 20px;
+}
+
+.downcontent h2 {
+  color: #FE7A36;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 153%;
+}
+
+.downcontent p {
+  color: #6f6f6f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 124%;
+  margin: 0;
+}
+
+.contenthead {
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  align-items: center;
+}
+
+.para {
+  margin: 0;
+  font-size: 16px;
+  color: #6c6c6c;
+}
+
+.arrowButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nextarrow,
+.prevarrow {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 110px;
+  right: 25px;
+  
+}
+
+.prevarrow svg,
+.nextarrow svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+.slider-container {
+  margin: 0px;
+}
+
+}
+@media only screen and (max-width: 641px) {
+  .slider-container {
+    display: flex;
+    margin: 50px 20px;
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+  .header {
+    margin-top: 0px;
+    font-size: 28px;
+  }
+  .slider {
+    margin: 30px 10px;
+  }
+
+  .nextarrow svg {
+    top: 32px;
+    left: 3px;
+    position: absolute;
+    font-size: 26px;
+  }
+  .prevarrow svg {
+    position: absolute;
+    top: 32px;
+    left: 15px;
+    font-size: 26px;
+  }
+
+  .downcontent {
+    margin: 4px 0px;
+    grid-template-columns: 49.5% 1% 49.5%;
+  }
+
+  .contenthead {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+  }
+  .downcontent p {
+    margin: 0px;
+  }
+  .big-image img {
+    height: auto;
+    padding-left: 0px;
+  }
+  .big-image-container {
+    width: 100%;
+  }
+  .arrowButtons{
+    display: none;
+  }
+}

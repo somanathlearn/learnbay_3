@@ -1,0 +1,134 @@
+.FAQ {
+  margin: 0px 30px;
+}
+.quesh {
+  display: flex;
+  gap: 20px;
+  padding: 20px 30px;
+  align-items: center;
+  cursor: pointer;
+text-align: left;
+margin-bottom: 30px;
+justify-content: space-between;
+background: #FFFFFF;
+border-radius: 6px;
+box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.05);
+}
+.queshO {
+  display: flex;
+  gap: 20px;
+  padding: 20px 30px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  background: #FFFFFF;
+box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+.quesh h3 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 22px;
+  color: #686767;
+  text-align: left;
+}
+
+.queshO h3 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 22px;
+  color: #0072BC;
+  text-align: left;
+}
+
+.ans {
+  margin-bottom: 30px;
+}
+.ans p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.link {
+  color: #0072BC;
+}
+
+.ans p {
+  padding: 0px 30px 20px 30px;
+  color: #6A6A6A;
+  font-size: 16px;
+  background-color: #fff;
+}
+.ansV {
+  display: none;
+}
+.FaqWrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+}
+
+.FaqWrapper:last-child {
+  border-bottom: 0px;
+}
+
+.iconMinus {
+  color: #484848;
+}
+
+.iconPlus {
+  color: #0072BC;
+}
+
+@media (min-width: 600px) and (max-width: 1026px){
+  .FAQ{
+    margin: 0px 0px 0px 20px;
+  }
+}
+
+@media (max-width: 481px) {
+  .ans {
+    margin-bottom: 0px;
+  }
+  .FAQ {
+    margin: 0px;
+    justify-content: center;
+  }
+  .ques {
+    height: max-content;
+    padding: 15px;
+  }
+  .quesO {
+    height: max-content;
+    padding: 15px;
+  }
+  .quesh {
+    height: max-content;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 88% 12%;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+  .queshO {
+    height: max-content;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 88% 12%;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+  .ans p {
+    padding: 0px 20px 20px 20px;
+  }
+  .FaqWrapper {
+    border-top: 1px solid #00000030;
+    border-bottom: 0;
+  }
+  .FaqWrapper:first-child {
+    border: 0;
+  }
+}

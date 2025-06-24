@@ -1,0 +1,38 @@
+.firstSection {
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+  padding: 70px 100px 0px 100px;
+}
+
+.FirstH4 {
+  margin: 0;
+  margin-top: 120px;
+  text-align: center;
+}
+
+@media (max-width: 1281px) { 
+  .firstSection {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    padding: 70px 50px 0px 50px;
+  }
+}
+@media (max-width: 641px) { 
+  .firstSection {
+    display: block;
+    padding: 20px;
+  }
+  .upLine {
+    display: none;
+  }
+  .firstSection {
+    display: flex;
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+  .FirstH4 {
+    margin-top: 80px;
+    text-align: center;
+    padding: 0px 20px;
+  }
+}

@@ -1,0 +1,118 @@
+
+.boxP {
+    
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px 80px 55px 80px;
+  padding: 0px;
+  justify-content: space-evenly;
+  border-radius: 7.22px;
+background: #FFF;
+box-shadow: 0px 0px 5.77562px 0px rgba(0, 0, 0, 0.15);
+border-image: linear-gradient(to right, rgba(0, 114, 188, 0.4), rgba(45, 182, 33, 0.4), rgba(249, 150, 0, 0.4));
+border-image-slice: 1; 
+border-image-width: 0 0 4px 0; 
+border-image-outset: 0; 
+border-image-repeat: stretch; 
+border-bottom: 4px solid transparent; 
+}
+
+.imgBox {
+  margin-bottom: -5px;
+}
+
+.boxC{
+  display: flex;
+    gap: 10px;
+    border-radius: 3px;
+    padding: 25px 0px 20px 0px;
+    align-items: center;
+}
+
+.boxC p{
+  color: #403F3F;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; 
+  margin: 0;
+}
+
+@media (max-width: 641px) {
+  .boxP {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    flex-wrap: wrap;
+    box-shadow: none;
+    margin: 36px 4px;
+    padding: 2px 0px;
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  .boxC{
+    border-radius: 0.928px;
+    box-shadow: 0px 0px 1.78873px 0px rgba(0, 0, 0, 0.15);
+    padding: 25px 3px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+      color: black;
+border-bottom: 3px solid #0072bc9e;
+
+  
+   
+  }
+
+  .boxC p{
+    color: #000000;
+    font-size: 22px;
+    font-style: normal;
+    margin: auto 0px auto 0px;
+    text-align: center;
+    font-weight: 700;
+  
+    
+
+  }
+  .boxD {
+    border: none;    
+    border-radius: 3px;
+background: #FFF;
+box-shadow: 3px -4px 3px 0px rgba(0, 0, 0, 0.30);
+  
+  }
+
+  .boxE {
+    border-radius: 3px;
+background: #FFF;
+box-shadow: 3px -4px 3px 0px rgba(0, 0, 0, 0.30);
+border: none;
+  }
+}
+
+
+
+@media (max-width: 481px) {
+  
+  
+
+  .boxC p{
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    margin: auto 0px auto 0px;
+    text-align: center;
+    font-weight: 700;
+
+  }
+
+  .boxD, .boxC, .boxE{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.30);
+  }
+
+ 
+}
+

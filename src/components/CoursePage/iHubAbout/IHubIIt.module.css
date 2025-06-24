@@ -1,0 +1,48 @@
+.IHubAbout {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 840px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+}.IHubAbout h2 {
+    color: #000;
+text-align: center;
+
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 126.5%; /* 56.925px */
+}
+
+
+.IHubAbout p {
+    color: #000;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 158%; /* 34.76px */
+}
+
+.bar{
+    width: 40%;
+    height: 3px;
+
+    background-color:#0072bc;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:641px) {
+    .IHubAbout{
+        max-width: 100%;
+        padding: 30px;
+    }
+    .IHubAbout p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,131 @@
+.mainHandsOn{
+    background: linear-gradient(96deg, #004B94 0.28%, #18042F 98.22%);
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding:60px 40px;
+}
+.handonGrid{
+    display: grid;
+    grid-template-columns: 36% 50%;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  
+}
+
+.left{
+    padding: 20px;
+}
+.highlets{
+border-radius: 61.261px;
+border: 2px solid #4D4FCD;
+background: rgba(255, 255, 255, 0.34);
+color: #F2F8FF;
+text-align: center;
+font-size: 15.315px;
+font-style: normal;
+font-weight: 600;
+line-height: 156%; /* 30.132px */
+letter-spacing: 0.193px;
+padding:6px 20px;
+width: fit-content;
+}
+.ryt {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ryt h4 {
+    color: #FFF;
+font-size: 38.45px;
+font-style: normal;
+font-weight: 700;
+line-height: 131%; /* 71.329px */
+}
+.org {
+    background: linear-gradient(90deg, #FE7A36 0%, #CA3942 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ryt p {
+    color: #FFF;
+font-size: 22.291px;
+font-style: normal;
+font-weight: 500;
+line-height: 156%; /* 44.134px */
+letter-spacing: 0.283px;
+}
+
+.card {
+    border-radius: 23.051px;
+    background: #FFF;
+    padding: 40px 26px;
+    border-right:10px solid  rgba(48, 19, 19, 0.34);
+    border-bottom:10px solid   rgba(48, 19, 19, 0.34);
+
+
+
+  }
+  
+  
+
+.card h5 {
+    color: #000;
+font-size: 26.607px;
+font-style: normal;
+font-weight: 700;
+line-height: 156%; /* 50.867px */
+letter-spacing: 0.326px;
+}
+
+.card p {
+    color: #8B8B8B;
+font-size: 19.26px;
+font-style: normal;
+font-weight: 500;
+line-height: 126%; /* 44.085px */
+letter-spacing: 0.283px;
+}
+
+/* Pagination dots styling */
+.slider :global(.swiper-pagination-bullet) {
+    background: #ccc;
+    opacity: 1;
+    margin: 0 6px !important;
+  }
+  .slider :global(.swiper-pagination-bullet-active) {
+    background: #4D4FCD;
+  }
+  
+  .sliderWrapper {
+    position: relative;
+    padding-bottom: 40px; /* reserve space for pagination dots */
+  }
+  
+  .slider :global(.swiper-pagination) {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .slider :global(.swiper-pagination-bullet) {
+    background: #ccc;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px !important;
+    border-radius: 50%;
+  }
+  
+  .slider :global(.swiper-pagination-bullet-active) {
+    background: #4D4FCD;
+    margin-top: 20px;
+  }
+  

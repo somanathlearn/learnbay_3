@@ -1,0 +1,450 @@
+.popupOverlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  z-index: 10000;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+}
+.violet {
+  color: #4d4fcd;
+  margin-top: 0;
+  font-size: 22px;
+  justify-content: center;
+  text-align: center;
+}
+.orange {
+  display: flex;
+  flex-flow: row;
+  color: #fe7a36;
+  font-size: 22px;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  margin-left: 10px;
+}
+/* @keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+
+.popupContainer {
+  background-color: white;
+  width: max-content;
+  max-width: 90%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 24px;
+  /* background: #0a0b0b; */
+  margin: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.close:hover {
+  color: #0383ff;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.whiteDiv {
+  /* background-color: white; */
+  /* opacity: 0.06; */
+  background: rgba(3, 131, 255, 0.06);
+  padding: 35px 30px 0px 30px;
+  text-align: center;
+  /* border-bottom: 2px solid #e0e0e0; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.starPop {
+  position: absolute;
+  top: 40%;
+  left: 12%;
+}
+
+.vaildTag {
+  margin: 10px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.whiteDiv h3 {
+  color: #353535;
+  text-align: center;
+  /* line-height: 160%; */
+  letter-spacing: -0.259px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 35px */
+  letter-spacing: -0.35px;
+}
+
+.iitImg {
+  width: auto;
+  height: auto;
+}
+
+.gradientDiv {
+  /* background: linear-gradient(45deg, #0071bc81, #fe793673); */
+
+  background: rgba(3, 131, 255, 0.06);
+  padding: 7px 50px 35px 50px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iitDiv {
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: fit-content;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagLine {
+  position: absolute;
+  top: 33%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  padding: 8px 30px;
+  border-top: 3px solid #0072bc;
+  border-left: 3px solid #0072bc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: rotate(-9deg);
+  border-radius: 8px;
+  border-right: 3px solid #0072bc;
+  border-bottom: 3px solid #0072bc;
+  background: #022646;
+  box-shadow: 3px -5px 4.9px -3px rgba(0, 0, 0, 0.45);
+}
+
+.OFF {
+  color: #353535;
+  font-size: 40.804px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.578px;
+}
+
+.buttonDiv {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* .buttonDiv button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 51px;
+  background: #0383FF;
+  font-size: 20px;
+} */
+.buttonDiv button {
+  color: white;
+  padding: 10px 90px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  background: #0383ff;
+  font-size: 20px;
+}
+
+.buttonDiv button:hover {
+  background-color: #0381ffa9;
+}
+
+.offerText {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 126.5%;
+  /* 22.77px */
+  letter-spacing: -0.18px;
+}
+
+.offerText span {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%;
+  /* 27.83px */
+  letter-spacing: -0.22px;
+}
+
+.batch {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%;
+  /* 27.83px */
+  letter-spacing: -0.22px;
+}
+
+.newbatch {
+  color: #4d4fcd;
+  background-color: rgba(77, 79, 205, 0.15);
+  padding: 3px 14px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 700;
+  /* font-weight: 400; */
+  line-height: 126.5%; /* 31.625px */
+  letter-spacing: -0.25px;
+}
+
+.popupPoints {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  margin: 30px 0;
+}
+.bold {
+  font-weight: 700;
+  font-size: 28px;
+  color: #fe7a36;
+  margin-top: 0;
+}
+.popPoint {
+  font-weight: 500;
+  display: flex;
+  gap: 4px;
+}
+.mpopupPoints {
+  display: none;
+}
+.mpopPoint {
+  display: none;
+}
+
+.batchDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.tagLine p {
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 126.5%;
+  /* 31.625px */
+  letter-spacing: -0.25px;
+  margin: 0;
+}
+
+.tagLine span {
+  color: #fff;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 126.5%;
+  letter-spacing: -0.25px;
+}
+
+.popupTitle {
+  color: #353535;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.35px;
+}
+.forTitle {
+  color: #353535;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.35px;
+}
+@media screen and (max-width: 641px) {
+  .popupOverlay {
+    align-items: center;
+    justify-content: center;
+  }
+  .popupContainer {
+    width: 90%;
+    margin: 0;
+    border-radius: 16px;
+  }
+  .whiteDiv {
+    padding: 25px 20px 0px 20px;
+    position: relative;
+  }
+  .gradientDiv {
+    padding: 7px 20px 35px 20px;
+  }
+  .starPop {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 48%;
+    left: 6%;
+  }
+  .orange {
+    font-size: 20px;
+    gap: 5px;
+    margin-left: 4px;
+    text-align: center;
+  }
+  .newbatch {
+    padding: 3px 8px;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 170px;
+  }
+
+  .iitDiv {
+    margin-bottom: 24px;
+  }
+
+  .whiteDiv h3 {
+    font-size: 26px;
+  }
+  .mpopupPoints {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin: 30px 0;
+    padding-left: 15px;
+  }
+  .mpopPoint {
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+  }
+  .popupPoints {
+    display: none;
+  }
+  .popPoint {
+    display: none;
+  }
+  .popupTitle {
+    font-size: 26px;
+  }
+  .forTitle {
+    font-size: 26px;
+  }
+  .tagLine p {
+    font-size: 24px;
+  }
+
+  .tagLine {
+    left: 15%;
+    top: 30%;
+  }
+
+  .offerText span {
+    font-size: 18px;
+  }
+
+  .offerText {
+    font-size: 18px;
+  }
+
+  .OFF {
+    font-size: 36px;
+  }
+
+  .buttonDiv button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .whiteDiv h3 {
+    font-size: 23px;
+  }
+  .starPop {
+    height: 38px;
+    width: 36px;
+    position: absolute;
+    top: 52%;
+    left: 5%;
+  }
+
+  .popupTitle {
+    font-size: 23px;
+  }
+  .forTitle {
+    font-size: 23px;
+  }
+
+  .tagLine p {
+    font-size: 20px;
+  }
+
+  .tagLine {
+    left: 15%;
+    top: 34%;
+  }
+
+  .offerText span {
+    font-size: 14px;
+  }
+
+  .offerText {
+    font-size: 14px;
+  }
+
+  .OFF {
+    font-size: 36px;
+  }
+
+  .buttonDiv button {
+    font-size: 14px;
+  }
+  .newbatch {
+    padding: 3px 8px;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+}

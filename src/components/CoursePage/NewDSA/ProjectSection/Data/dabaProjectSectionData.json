@@ -1,0 +1,65 @@
+
+[
+    {
+      "id": 1,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Twitter.webp",
+      "number": 1,
+      "hours": "26 hours",
+      "title": "Sales Performance Optimization",
+      "text": "Analyze sales data to uncover patterns and forecast future sales performance.",
+      "cta": ": Provide actionable insights to improve sales strategies, enhance targeting, and boost revenue ",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp"
+    },
+    {
+      "id": 2,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Oyo.webp",
+      "number": 2,
+      "hours": "26 hours",
+      "title": "Customer Segmentation for Personalized Marketing",
+      "text": "Use customer data to segment audiences for targeted marketing campaigns.",
+      "cta": "Create distinct customer profiles and deliver tailored marketing strategies that increase customer engagement",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azuredevopspipeline.webp"
+    },
+    {
+      "id": 3,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ProjectSwiggy.webp",
+      "number": 3,
+      "hours": "26 hours",
+      "title": "Supply Chain Optimization with Big Data ",
+      "text": "Analyze large-scale data to improve supply chain efficiency by reducing bottlenecks",
+      "cta": "Use big data techniques to recommend optimizations in supply chain operations, reducing costs and delivery time",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azureawsjenkins.webp"
+  
+    },
+    {
+      "id": 4,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/netflix_logo.webp",
+      "number": 4,
+      "hours": "26 hours",
+      "title": "Financial Risk Prediction and Mitigation ",
+      "text": "Assess financial risks using datadriven models and predictive analytics. ",
+      "cta": ": Provide financial forecasts and risk models to support decision-making and minimize exposure to financial risks",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dockerkubernatics.webp"
+    },
+    {
+      "id": 5,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Flipkart.webp",
+      "number": 5,
+      "hours": "26 hours",
+      "title": "Predictive Analytics for Customer Churn",
+      "text": "Use customer interaction and purchase history to predict churn and suggest retention strategies",
+      "cta": "Build predictive models to identify churn risks, delivering insights to enhance customer retention. ",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/git_linux.webp"
+    },
+    {
+      "id": 6,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/makemytrip.webp",
+      "number": 6,
+      "hours": "26 hours",
+      "title": "HR Analytics for Employee Retention",
+      "text": "Analyze employee data to predict turnover and develop strategies for employee engagement.",
+      "cta": ": Utilize GenAI to create retention strategies based on predictive models and employee behavior patterns ",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/promethusgrafna.png"
+    }
+  ]
+  

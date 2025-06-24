@@ -1,0 +1,112 @@
+.container {
+  color: white;
+  width: 1300px;
+  margin: auto;
+  border-radius: 74px;
+  background: #212121;
+  margin-bottom: 80px;
+  padding: 60px 120px;
+}
+
+.topSpan {
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #fe7a36;
+  text-underline-offset: 14px;
+}
+
+.degree h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.greenTop {
+  color: #04C988;
+font-size: 20px;
+font-weight: 600;
+margin: 0px 20px 20px;
+}
+
+.degreeContainer {
+  display: grid;
+  grid-template-columns: 42% 46%;
+  gap: 126px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.degreeContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.containerGrid1 {
+  border-radius: 41px;
+  border: 1.5px solid #0072bc;
+  background: rgba(217, 217, 217, 0.1);
+  padding: 30px 20px 10px 20px;
+}
+
+.firstImg {
+  padding: 0px 50px 20px 50px;
+}
+
+.iconPlus {
+  display: flex;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.secondImg {
+  padding: 0px 20px;
+}
+.containerGrid1 h3,
+.containerGridSecond h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.paraDiv h4,
+.secondBotDiv h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 125%; /* 36.989px */
+  margin-bottom: 20px;
+}
+
+.secondBotDiv {
+  padding: 50px 30px 0px 30px;
+}
+.IconDiv p {
+  display: grid;
+  grid-template-columns: 5% 90%;
+  color: #fff;
+  font-size: 14px;
+  gap: 5px;
+  font-weight: 400;
+  align-items: flex-start;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.icon {
+  fill: #20a898;
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+@media (max-width: 1280px) {
+  .container{
+    width:auto;
+  }
+  
+}

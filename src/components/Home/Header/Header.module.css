@@ -1,0 +1,321 @@
+.main {
+  color: white;
+}
+.inner {
+  background: #000;
+  padding: 3rem 0 0 0;
+  margin: 80px 0 80px 0;
+  height: 38rem;
+}
+.section {
+  /* background: linear-gradient(271deg, #0072bc 0.84%, rgba(0, 52, 86, 0) 60.65%); */
+  border-radius: 30px;
+  padding: 3rem 0 5rem 3rem;
+}
+.container {
+  display: flex;
+  grid-template-columns: 49% 49%;
+  gap: 8px;
+}
+.textContent p,
+.textContent h1 {
+  flex: 1;
+  color: white;
+  margin: 0;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+/* .ixxxxxxxx */
+.image {
+  max-width: 100%;
+  height: 25rem;
+  width: 35rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.statsContainer {
+  max-width: 42rem;
+  padding: 16px;
+  margin: -77px 356px -67px 407px;
+  background-color: white;
+  position: relative;
+  color: #1e3a8a;
+  border-radius: 15px;
+  box-shadow: 0px 221px 62px 0px rgba(0, 0, 0, 0),
+    0px 141px 56px 0px rgba(0, 0, 0, 0.01),
+    0px 79px 48px 0px rgba(0, 0, 0, 0.05), 0px 35px 35px 0px rgba(0, 0, 0, 0.09),
+    0px 9px 19px 0px rgba(0, 0, 0, 0.1);
+}
+.line {
+  margin-left: 50px;
+}
+
+.statsHeading {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.statsGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 30% 32% 33%;
+}
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("https://learnbay-s3.s3.us-east-2.amazonaws.com/headergroup.webp")
+    no-repeat center center/cover;
+  max-width: 1400px;
+  background-size: 84rem 34rem;
+  margin: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); /* Dark overlay for better readability */
+  display: flex;
+  align-items: center;
+}
+.text {
+  margin-left: 14px;
+}
+.line {
+  height: 62px !important;
+  width: 1px !important;
+
+  object-fit: cover;
+}
+.statCard img {
+  height: 47px;
+  width: 58px;
+}
+.statCard {
+  padding: 0.3rem 0 0.3rem 0.3rem;
+  text-align: left;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+.textContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.statNumber {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fe7a36;
+}
+.statText {
+  font-size: 17px;
+  font-weight: 500;
+}
+.textContent {
+  display: flex;
+  flex-flow: column;
+  gap: 36px;
+  margin: -170px 0 0 70px;
+  position: relative;
+  max-width: 48%;
+  color: white;
+}
+.textContent p {
+  line-height: 22px;
+}
+
+.container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1381px) {
+  /* .heroSection {
+    width: 97%;
+    height: 92%;
+  } */
+
+  .statText {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  /* .text {
+    margin-left: 29px;
+  } */
+}
+@media (max-width: 1281px) {
+  .inner {
+    padding: 2rem 0 0 0;
+    height: 33rem;
+  }
+  .heroSection {
+    background-size: 75rem 29rem;
+  }
+  .line {
+    margin-left: 28px;
+  }
+  .statsContainer {
+    width: 39rem;
+    margin: -77px 309px -67px 326px;
+    padding: 16px 19px;
+  }
+  .statNumber {
+    font-size: 33px;
+  }
+}
+@media (max-width: 1181px) {
+  .inner {
+    padding: 2rem 0 0 0;
+    height: 30rem;
+  }
+  .heroSection {
+    background-size: 71rem 27rem;
+  }
+  .statCard img {
+    height: 37px;
+    width: 38px;
+  }
+  .statsContainer {
+    width: 34rem;
+    padding: 10px 19px;
+  }
+  .statText {
+    font-size: 13px;
+  }
+  .statNumber {
+    font-size: 33px;
+  }
+}
+@media (max-width: 1025px) {
+  .inner {
+    padding: 1rem 0 0 0;
+    height: 24rem;
+  }
+  .heroSection {
+    background-size: 60rem 22rem;
+  }
+  .statCard img {
+    height: 37px;
+    width: 38px;
+  }
+  .statsContainer {
+    width: 34rem;
+    padding: 10px 19px;
+    margin: -61px 233px -67px 206px;
+  }
+  .textContent {
+    max-width: 54%;
+    margin: -45px 0 0 70px;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .statText {
+    font-size: 13px;
+  }
+  .statNumber {
+    font-size: 33px;
+  }
+  .heading {
+    font-size: 1.78rem;
+  }
+}
+@media (max-width: 769px) {
+  .statsContainer {
+    margin: -46px 233px -67px 91px;
+  }
+
+  .heroSection {
+    background-size: 46rem 18rem;
+  }
+  .inner {
+    height: 20rem;
+    margin: 58px 0 80px 0;
+  }
+  .statsContainer {
+    width: 30rem;
+  }
+  .textContent {
+    width: 60%;
+    margin: -45px 0 0 33px;
+    gap: 18px;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .statNumber {
+    font-size: 26px;
+  }
+  .statText {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 641px) {
+  .statsGrid {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+  .line {
+    display: none;
+  }
+  .statsContainer {
+    margin: -87px auto;
+    width: 20rem;
+  }
+  .heroSection {
+    background: url("https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/GroupHeader.png")
+      no-repeat center center/cover;
+    /* max-width: 340px; */
+    background-size: 23rem 33rem;
+    margin: auto;
+  }
+  .inner {
+    height: 48rem;
+    margin: 58px 0 204px 0;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .textContent {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Adjust if needed */
+    margin: 25px 0 88px 0;
+    padding: 20px;
+    gap: 45px;
+  }
+}

@@ -1,0 +1,190 @@
+.GetHireMain {
+  opacity: 10;
+  background: linear-gradient(
+    270deg,
+    #fff -5.52%,
+    #eae9e9 50.41%,
+    #fff 102.11%
+  );
+  padding: 50px 150px;
+  margin: 80px 0px 0px 0px;
+}
+
+.mainpara {
+  display: flex;
+  color: #2db621;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 151.5%;
+  letter-spacing: 0.25px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  
+}
+.mainpara span {
+  color: black;
+  margin-right: 6px;
+}
+
+.GetHireHead {
+  display: grid;
+  grid-template-columns: 40% 45%;
+  gap: 195px;
+  margin-bottom: 35px;
+}
+
+.GetHireBulet {
+  display: grid;
+  grid-template-columns: 54% 33%;
+  grid-gap: 50px;
+  grid-gap: 50px;
+  gap: 60px;
+  align-items: center;
+}
+.GetHireHead h2 {
+  /* font-family: Inter; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147%;
+  letter-spacing: 0.45px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+.PRo {
+  color: #FE7A36;
+}
+
+.Points {
+  display: flex;
+  grid-template-columns: 20% 0%;
+  flex-direction: row;
+
+  border-radius: 60.294px;
+  background: rgb(14, 29, 39);
+  padding: 0px 1px;
+  gap: 10px;
+  padding: 6px 16px;
+  /* align-items: center; */
+  margin-bottom: 0px 20px;
+  /* justify-content: center; */
+}
+
+.Points p {
+  color: #e9eaec;
+  /* font-family: Inter; */
+  font-size: 15.543px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.295px;
+  margin-top: 0px;
+}
+.Points span {
+  align-items: center;
+  font-weight: 400;
+}
+
+.minibullet {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px;
+  margin-top: 20px;
+}
+.HireLeft {
+  margin-top: 20px;
+}
+
+.showDesktop {
+  display: block;
+}
+
+.showMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .GetHireMain {
+    padding: 0px;
+    margin: 0px;
+  }
+  .showDesktop {
+    display: none;
+  }
+  
+  .showMobile {
+    display: block;
+  }
+  .GetHireHead {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+  }
+  .HireLeft {
+    width: 350px;
+    height: 200px;
+  }
+  .GetHireBulet {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+/* Default styles for screens wider than 480px */
+/* Add your existing CSS styles here */
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  /* Add your mobile-specific styles here */
+  .GetHireMain {
+    padding: 10px 20px 30px 20px; /* Adjust the padding as needed */
+  }
+
+  .GetHireHead {
+    flex-direction: column; /* For stacking content vertically in mobile view */
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .GetHireMain img {
+    max-width: 100%;
+    height: auto; /* Adjust the image size for mobile display */
+  }
+
+  .GetHireBulet {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .HireRight {
+    /* background: red;  */
+    margin-top: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .GetHireHead h2 {
+    user-select: auto;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Points p {
+    font-size: 18px;
+    padding: 0px;
+  }
+  .Points {
+    gap: 10px;
+    margin: 0px;
+    padding-right: 30px;
+    align-items: center;
+  }
+}

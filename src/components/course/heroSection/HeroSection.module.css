@@ -1,0 +1,245 @@
+.container {
+  background: linear-gradient(
+    177deg,
+    #212121 3.2%,
+    #212121 42.94%,
+    #212121 79.56%,
+    #212121 97.79%
+  );
+  color: #000;
+  padding: 70px 0px;
+  margin-top: 70px;
+}
+
+.mainBg {
+  background: linear-gradient(176deg, #EFF3F6 3.89%, #FFF 42.38%, #EFF3F6 80.09%, #FFF 95.5%);
+  padding-bottom: 70px;
+}
+
+.innerDiv {
+  display: grid;
+  grid-template-columns: 54% 40%;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstSection h5 {
+  color: #7d7d7d;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.starDiv {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.starDiv img {
+  width: 32px;
+  height: 100%;
+}
+
+.starDivSection {
+  display: grid;
+  gap: 20px;
+}
+
+.firstSection h1 {
+  margin: 15px 0px 35px 0px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.firstSection p {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 30px;
+  margin-top: 65px;
+}
+
+.secondSection img {
+  width: 100%;
+  height: auto;
+}
+
+.outlineButton {
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border-radius: 10px;
+  padding: 12px 24px 10px 24px;
+  font-weight: 700;
+  border: 1px solid #212121;
+  color: #fff;
+  position: relative;
+  overflow: hidden; /* Ensures the animated effect stays within the button bounds */
+  cursor: pointer;
+}
+
+.outlineButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start the animation from the left */
+  width: 200%; /* Ensure the gradient covers the button */
+  height: 100%;
+ 
+  transition: left 0.4s ease-in-out; /* Smooth transition */
+}
+
+.outlineButton:hover::before {
+  left: 100%; /* Move gradient to the right on hover */
+  animation: moveGlass 1s forwards; /* Trigger animation on hover */
+   background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  ); /* Create a glass-like gradient */
+}
+
+@keyframes moveGlass {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.orangeButton {
+  background: #fe7a36; /* Original orange background */
+  border-radius: 10px;
+  color: #fff;
+  padding: 12px 24px 10px 24px;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative; 
+  overflow: hidden; 
+  transition: background 0.3s ease; 
+}
+
+.orangeButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%; 
+  height: 100%;
+
+  transition: left 0.4s ease-in-out; 
+}
+
+.orangeButton:hover::before {
+  left: 100%; 
+  animation: moveGlass 1s forwards;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  ); }
+
+@keyframes moveGlass {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+
+.botDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  border-radius: 30px;
+  background: #fff;
+  margin: 40px 0px 0px;
+  width: 100%;
+}
+
+.innerBotDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+    display: grid;
+    gap: 6px;
+}
+
+.content p {
+  margin: 0;
+  color: #212121;
+  font-weight: 500;
+}
+
+.content h3 {
+    color: #737373;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+}
+
+.span {
+    color: #fe7a36;
+}
+
+@media only screen and (max-width: 1302px) {
+ .innerDiv{
+  margin: 20px 60px;
+ }
+
+ .firstSection h1 {
+  font-size: 32px;
+ }
+ .firstSection h5 {
+  font-size: 22px;
+ }
+
+.botDiv {
+  width: 100%;
+}
+.videoIframe {
+  width: 100%;
+  height: 270px;
+}
+
+}
+
+
+@media only screen and (max-width: 1180px) {
+
+
+  .botDiv {
+    width: 100vw;
+  }
+  
+
+
+}
+
+@media only screen and (max-width: 890px) {
+
+  .firstSection h1 {
+    font-size: 26px;
+   }
+   .firstSection h5 {
+    font-size: 20px;
+   }
+   .innerDiv{
+    margin: 20px 30px;
+   }
+  
+}
+

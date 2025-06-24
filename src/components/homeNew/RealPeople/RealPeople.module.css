@@ -1,0 +1,214 @@
+.RealPeople {
+    padding: 60px 20px;
+    background: #fff;
+    width: 100%;
+    max-width: 1280px;
+    margin: 50px auto;
+}
+
+.Head {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Head h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #7f56d9;
+}
+
+.Head p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.container {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns:25% 72%;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 260px;
+}
+
+.circle,
+.circleGreen {
+    width: 40px;
+    height: 40px;
+    background: #e6e6ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.circleGreen {
+    background: #00c291;
+}
+
+.rating {
+    font-size: 13px;
+    color: #666;
+}
+
+/* .ryt {
+    flex: 1;
+  } */
+
+.successBox {
+    border: 1px solid #cfd6f0;
+    border-radius: 16px;
+    padding: 30px;
+    position: relative;
+    /* max-width: 600px; */
+}
+
+.tag {
+    color: #e2eaf6;
+    font-size: 24px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.successBox h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.successBox blockquote {
+    color: #666;
+    font-size: 15px;
+    margin: 10px 0 20px;
+    font-style: italic;
+}
+
+.grdiDiv {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.dataimge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -67px;
+}
+
+.projects {
+    margin-bottom: 20px;
+}
+
+.projectTag {
+    border-radius: 85.619px;
+    background: linear-gradient(114deg, #0383FF 24.64%, #4D4FCD 74.34%);
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 8px;
+
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    border-radius: 8.973px;
+    border: 0.546px solid #2fa4f7;
+    /* opacity: 0.44; */
+    background: #f1f8fd;
+    padding: 20px;
+
+    
+   
+}
+.card strong {
+    color: #000000 !important;
+    font-size: 16.466px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 156%; /* 31.927px */
+    letter-spacing: 0.205px;
+    opacity: 0.88;
+
+}
+
+.card p {
+    color: #00c291;
+    font-size: 9px;
+    margin-top: 4px;
+    border-radius: 10.911px;
+background: #CEFFEF;
+padding: 4px 20px;
+width: fit-content;
+}
+
+.cardMain{
+    margin:10px 40px;
+}
+.hiredBox {
+    margin-top: 10px;
+}
+
+.hired {
+    border-radius: 85.619px;
+    background: linear-gradient(114deg, #0383FF 24.64%, #4D4FCD 74.34%);
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hike {
+    color: #f25c5c;
+    font-size: 13px;
+    font-weight: 600;
+}
+.svgArrow svg{
+    /* background-color: red; */
+    position: absolute;
+    top: 20%;
+    left: 39.6%;
+}

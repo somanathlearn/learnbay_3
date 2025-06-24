@@ -1,0 +1,450 @@
+.Syllabus {
+  display: grid;
+  grid-template-columns: 57% 34%;
+  margin: 30px 110px 50px 140px;
+  gap: 110px;
+}
+
+.FlexInput {
+  display: flex;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.btnRadio {
+  width: 18px;
+}
+
+.syllabusLeft {
+  margin: 0px 0px;
+  position: relative;
+}
+.syllabusLeft p {
+  font-size: 18px;
+  color: #646464;
+}
+.syllabusLeft h4 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.ques {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3.792px;
+  background: #FFF;
+  box-shadow: 0px 0px 5.05643px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 20px 10px 20px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: -8px;
+  height: 60px;
+
+  margin-bottom: 30px;
+}
+.quesO {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 10px 20px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: -8px;
+  height: 60px;
+  border-radius: 3.792px;
+  border-left: 13.905px solid #0072bc;
+  background: #fff;
+  box-shadow: 0px 0px 5.05643px 0px rgba(0, 0, 0, 0.25);
+}
+
+.quesO h2 {
+  color: #0072BC;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 158%; /* 31.6px */
+text-transform: uppercase;
+}
+
+.ques h2 {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 158%; /* 31.6px */
+  text-transform: uppercase;
+
+}
+.ans {
+  margin-bottom: 5px;
+}
+.ans {
+  padding: 5px 20px 10px 20px;
+  color: #484848;
+  background: rgba(217, 217, 217, 0.20);
+  box-shadow: 0px 4px 4px rgba(0, 114, 188, 0.1);
+  border-radius: 3px;
+  margin-bottom: 32px;
+  font-size: 14px;
+  height: 440px;
+}
+.ans h5 {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.ansV {
+  display: none;
+}
+
+.QInner {
+  display: grid;
+  grid-template-columns: 0% 100%;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.bIcons {
+  color: #0072bc;
+  font-size: 14px;
+}
+
+.PIcons {
+  font-size: 26px;
+  margin-right: 10px;
+  color: #edb552;
+}
+
+.FaqWrapper {
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-left: 0px;
+  margin-bottom: -23px;
+  z-index: 0;
+}
+
+.syllabusRight {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 80px;
+  z-index: 1;
+  margin: 0px 10px;
+}
+
+.syllabusLeft button {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.formWrapper {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.formWrapper {
+  border-top: 8px solid #0072bc;
+  border-bottom: 6px solid #0072bc;
+}
+
+.formWrapper span {
+  color: #0072bc;
+}
+
+.iconUser {
+  background: #EDBB52;
+  border-radius: 50px;
+  font-size: 25px;
+  padding: 5px;
+  color: #000;
+}
+
+.formBox {
+  border-radius: 0px 5.329px 0px 7.528px;
+background: rgba(237, 187, 82, 0.08);
+padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #DCA227;
+    width: fit-content;
+    justify-content:right;
+    font-size: 14px;
+}
+.formWrapper h4 {
+  color: #555;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191.682%; 
+}
+
+.boxDiv {
+  display: flex;
+  justify-content: right;
+}
+.ptop {
+  font-size: 16px;
+  margin: 30px 100px;
+  color: #767676;
+  line-height: 26px;
+  text-align: center;
+}
+
+.syllabusWrapper {
+  display: block;
+  margin-top: 25px;
+}
+.Tab {
+  display: flex;
+  gap: 20px;
+}
+.ActiveSpan {
+  background-color: #0072bc1a;
+  color: #0072bc;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+  font-weight: 600;
+}
+
+.span {
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.h1 {
+  text-align: center;
+}
+.boxBlueB {
+  background: #0072bc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.boxBlueB .BoxP {
+  font-size: 22px;
+  color: #fff;
+  margin: 0;
+}
+.slide {
+  padding-bottom: 35px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+  width: fit-content !important;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+.ASlide {
+  padding-bottom: 35px;
+  border-bottom: 2px solid #0072BC;
+  width: fit-content !important;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+.topBar {
+  padding: 50px 100px 20px 100px;
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+  margin: auto;
+}
+.wrapSpan {
+  color: rgba(11, 11, 11, 0.60);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%; 
+}
+.colorHeading {
+  color: #edb552;
+font-style: normal;
+font-weight: 700;
+line-height: 126.5%; 
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+@media (max-width: 1281px) {
+  .Syllabus {
+    margin: 70px 20px 0px 20px;
+  }
+  .FlexInput {
+    display: flex;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .Tab {
+    height: 55px;
+    gap: 0;
+  }
+
+  .PIcons {
+    font-size: 22px;
+    margin-right: 10px;
+    color: #edb552;
+  }
+
+  .FaqWrapper {
+    margin-top: 22px;
+
+    padding-top: 2px;
+
+    margin-bottom: -23px;
+    z-index: 0;
+  }
+
+  .syllabusRight {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 80px;
+    z-index: 1;
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 801px) {
+  .syllabusLeft h4 {
+    font-size: 24px;
+  }
+  .syllabusLeft button {
+    font-size: 16px;
+    padding: 15px;
+    margin: auto;
+  }
+  .Syllabus {
+    margin: 20px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 641px) {
+  .Syllabus {
+    margin: 30px 10px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+  }
+
+  .ASlide {
+    padding: 10px 0px 10px 30px !important;
+  }
+
+  .slide {
+    padding: 10px 10px !important;
+  }
+
+  .careerPro {
+    padding: 0px 20px 50px 20px;
+  }
+
+  .slide {
+    height: fit-content;
+  }
+
+  /* .imgP {
+      display: grid;
+      grid-template-columns: 10% 90%;
+    } */
+
+  .imgP P {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .bulb {
+    margin: auto;
+  }
+
+  .button {
+    margin: auto;
+    margin-top: -30px;
+  }
+  .h1 {
+    color: black;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .ptop {
+    font-size: 16px;
+    margin: 0;
+    color: #767676;
+    line-height: 26px;
+    text-align: center;
+  }
+  .topBar {
+    padding: 40px 10px 20px 10px;
+  }
+}
+@media (max-width: 481px) {
+  .Syllabus {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 40px 20px 0px 20px;
+    gap: 0px;
+  }
+
+  .containerDiv {
+    margin-top: 50px;
+  }
+
+  .buttonDiv {
+    display: grid;
+    gap: 20px;
+  }
+
+  .buttonDiv button {
+    margin: auto;
+  }
+
+  .syllabusLeft {
+    margin: 0px 0px 0px 0px;
+    position: inherit;
+  }
+
+  .line {
+    margin-top: 0px;
+    z-index: 1;
+    margin-left: 0px;
+  }
+  .ans h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ans h6 {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .FaqWrapper {
+    padding-left: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .syllabusRight {
+    margin: 0px;
+  }
+  .wrapSpan {
+    font-size: 13px;
+    
+  }
+}

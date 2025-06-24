@@ -1,0 +1,108 @@
+.container {
+  background: linear-gradient(180deg, #FFF 0%, #EFF3F6 40.11%, #EFF3F6 59.31%, #FFF 98.22%);
+  color: #000;
+  padding: 70px 0px 70px 0px;
+}
+
+.innerDiv {
+  margin: 0px 50px;
+}
+
+.innerDiv h2 {
+  color: #022646;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.topSpan {
+  text-decoration: underline;
+  text-decoration-color: #fe7a36;
+  text-underline-offset: 14px;
+  font-weight: 800;
+}
+
+.firstSection h3 {
+  color: rgba(33, 33, 33, 0.6);
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.lightGray {
+  color: #212121;
+  font-weight: 300;
+}
+
+.orangeHead {
+  color: #fe7a36;
+}
+
+.pTop {
+  color: rgba(33, 33, 33, 0.63);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 146.5%; /* 36.625px */
+  margin-top: 20px;
+}
+
+.innerBoxDiv {
+  display: flex;
+  gap: 100px;
+  margin: 30px 40px 30px 20px;
+}
+
+.innerBox h3 {
+  color: #0072bc;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.innerBox {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.pBot {
+    margin: 0px 110px 0px 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.twoSection {
+  display: grid;
+  grid-template-columns: 68% 28%;
+  gap: 48px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.orangeSpan {
+    color: #FE7A36;
+font-weight: 700;
+}
+
+.blueSpan {
+  color: #0072BC;
+  font-weight: 600;
+  text-decoration-line: underline;
+  font-style: italic;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition for the color change */
+}
+
+.blueSpan:hover {
+  color: #FE7A36;
+}
+
+
+.firstSection {
+  border-radius: 49px;
+  padding: 30px 35px;
+  background: #fff;
+}
+
+.secondSection img { 
+  width: 100%;
+  height: auto;
+}

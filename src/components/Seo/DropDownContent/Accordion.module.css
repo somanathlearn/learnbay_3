@@ -1,0 +1,139 @@
+/* Accordion.module.css */
+
+.accordionContainer {
+    display: grid;
+    grid-template-columns: 18% 0% 80%;
+    margin: 20px 150px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 30px;
+    position: relative;
+}
+
+
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-right: 0.5px solid rgb(193, 189, 189);
+    margin: 0px 14px;
+    cursor: pointer;
+}
+.leftside :hover{
+    color: #0072bc;
+}
+
+.leftside p {
+    font-size: 14px;
+}
+
+.accordionItem {
+    border-bottom: 0.5px solid grey;
+    position: relative;
+    
+}
+.accordionButton.active{
+color: #0072bc;
+}
+.leftSideItem.active {
+    border-right: 3px solid #0072bc;
+    /* Add blue border to active left side item */
+    height: 40px;
+}
+
+.accordionButton {
+    /* background-color: #f4f4f4; */
+    padding: 15px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+
+.accordionContent {
+    padding: 10px;
+    /* background-color: #ffffff; */
+    /* border: 1px solid #ccc; */
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+/* PROJECt */
+.projectmain {
+    /* background-color: red; */
+    display: flex;
+
+
+}
+
+.mainbox {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 12px 10px;
+    padding: 20px;
+}
+
+.imgco {
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.headline {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .accordionContainer {
+
+        margin: 1px 9px;
+        display: block;
+        padding: 13px;
+        box-shadow: none;
+    }
+
+    .accordionButton {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    .leftside p {
+        font-size: 10px;
+    }
+
+    .leftside {
+        display: none;
+    }
+
+    .accordionContainer img {
+        width: 300px;
+        height: 202px;
+    }
+
+    /* Project */
+
+    .imgco {
+        display: block;
+    }
+
+    .projectmain {
+        display: block;
+    }
+
+    .projectmain img {
+        height: 50px;
+        width: 100px;
+    }
+
+}

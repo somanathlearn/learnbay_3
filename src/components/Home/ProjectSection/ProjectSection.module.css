@@ -1,0 +1,263 @@
+.container {
+    padding: 90px 100px 30px 100px;
+    background: linear-gradient(258deg, #301D00 7.12%, #000 94.15%);
+}
+
+.h4 {
+    font-size: 34px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.span {
+    color: #FE7A36;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    gap: 70px;
+    margin: 50px 130px 0px 130px;
+}
+
+.ProjectSection .InnerBox2 img {
+    border-radius: 10px !important;
+}
+
+.InnerBox1, .InnerBox2 {
+    border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+padding: 10px 10px 50px 10px;
+height: fit-content;
+}
+
+.InnerBox1 {
+    margin-top: 30px;
+}
+
+.BlueHed {
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px;
+}
+
+.para {
+    font-size: 16px;
+    line-height: 28px;
+    color: #444;
+    margin: 0;
+}
+
+.iconPara {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.iconPara p {
+    display: grid;
+    grid-template-columns: 5% 92%;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.BlueHedDomain {
+    color: #FFF;
+font-size: 32px !important;
+font-weight: 800;
+letter-spacing: 1px;
+}
+
+.BlueHedDomain span {
+    color: #FE7A36;
+}
+.greenIcon {
+    margin-top: 5px;
+    color: #20A898;
+}
+
+.secondDiv {
+    display: grid;
+    grid-template-columns: 44% 51%;
+    gap: 55px;
+    padding: 50px 50px 50px 120px;
+margin: 60px 10px 40px 10px;
+border-radius: 10.298px;
+border: 1px solid #FE7A36;
+background: linear-gradient(180deg, #000 0%, rgba(75, 45, 0, 0.00) 100%);
+box-shadow: 3.089px 10.298px 25.744px -6.179px rgba(0, 0, 0, 0.25);
+align-items: center;
+
+}
+
+.iconBox {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 20px;
+}
+
+.BoxIconinner P {
+    margin: 0;
+    color: #444444;
+}
+
+.firstDiv > p {
+    margin-bottom: 30px;
+    margin-top: -10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.paraP {
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+
+.BoxIconinner {
+    border-radius: 6px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+width: 100%;
+padding: 17px 0px;
+color: #444;
+margin-top: 0px;
+text-align: center;
+font-weight: 700;
+}
+
+.BoxIconinner button {
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    padding: 10px 20px !important;
+}
+
+.iconButton {
+    display: grid;
+    grid-template-columns: 55%  31%;
+    gap: 70px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.iconButton Button {
+    height: fit-content;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 8px;
+
+}
+
+.iconBoxMobile {
+    display: none;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+    fill: rgb(4, 93, 105);
+  }
+  .icon1 {
+    width: 40px;
+    height: 40px;
+    fill: rgb(4, 93, 105); 
+  }
+ 
+
+@media (max-width: 641px) {
+    .container {
+        padding: 50px 20px 30px 20px;
+    }
+
+    .BlueHedDomain {
+        font-size: 22px !important;
+    }
+
+    .container h4 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .paraP {
+        gap: 10px;
+        font-size: 16px !important;
+    }
+
+    
+
+.secondDiv {
+    margin: 40px 0px 10px 0px;
+}
+
+    .box {
+        display: block;
+        margin: 0;
+    }
+
+    .InnerBox1, .InnerBox2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .BlueHed {
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+    .secondDiv {
+        display: block;
+        padding: 30px 20px;
+    }
+
+    .iconBoxMobile {
+        display: block;
+    }
+
+    .iconPara {
+        margin: 0px 5px;
+    }
+
+    .iconBoxDesktop {
+        display: none;
+    }
+
+    .iconBox {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 48% 48%;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .BoxIconinner {
+        margin: 0;
+    }
+
+    .BoxIconinner p {
+        font-size: 13px;
+    }
+
+    .buttonDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttonDiv button {
+        padding: 8px 10px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .container{
+    margin-bottom: 10px;
+}
+}

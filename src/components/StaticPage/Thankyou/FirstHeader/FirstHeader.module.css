@@ -1,0 +1,97 @@
+.headerWrap {
+  background-color: #f8fcff;
+  box-shadow: 0px 4px 68px rgba(0, 0, 0, 0.08);
+  padding: 100px 100px;
+  margin-top: 70px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 0 0 50% 50%;
+}
+
+.MasterCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin: auto;
+  position: relative;
+}
+
+.cardwrapper {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* margin: 20px 0; */
+}
+.headerWrap p {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+.headerWrap h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.headerWrap button {
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.headerWrap button:hover {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.cutText {
+  text-decoration: line-through;
+}
+.greenText {
+  color: green;
+}
+.btnDownload {
+  border: 0;
+  font-weight: 500;
+  color: #242424;
+  background-color: #edbb52;
+}
+
+.btnFlex {
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 641px) {
+  .cardwrapper {
+    grid-template-columns: 100%;
+    margin: 0 14px;
+  }
+}
+@media (max-width: 481px) {
+  .headerWrap {
+    border-radius: 0 0 10% 10%;
+    padding: 20px;
+    margin-top: 47px;
+  }
+  .headerWrap h1 {
+    font-size: 22px;
+  }
+
+  .btnFlex {
+    display: block;
+  }
+  .headerWrap button {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .btnDownload {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .headerWrap p {
+    margin: 0;
+    font-size: 25px;
+  }
+}

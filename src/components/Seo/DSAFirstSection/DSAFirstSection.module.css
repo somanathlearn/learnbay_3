@@ -1,0 +1,100 @@
+.containerWrapper {
+    position: relative;
+    width: 100vw;
+    height: 520px;
+    background: #F2F8FC;
+    margin-top: 81px;
+    overflow: hidden;
+}
+
+.bgWrapRight {
+    position: absolute;
+    width: 1040px;
+    height: 940px;
+    right: -570px;
+    top: -300px;
+    transform: rotate(-63deg);
+    border-radius: 70px;
+    background: #022646;
+    flex-shrink: 0;
+}
+
+.contentsWrapper {
+    position: relative;
+    width: 100%;
+    padding: 40px 140px;
+    z-index: 1;
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.contentLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.topPara {
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 36px;
+    background: rgba(0, 114, 188, 0.20);
+    font-weight: 600;
+    font-size: 20px;
+    color: #0072BC;
+}
+
+.titleH1 {
+    width: 90%;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.headingPoint,
+.ctaButtonsDiv,
+.pointsDiv {
+    display: flex;
+}
+
+.pointsDiv {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.headingPoint {
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.headingPoint p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 109%;
+}
+
+.headingPoint span {
+    background: linear-gradient(90deg, #0882D1 33.76%, #C68CFF 47.73%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.ctaButtonsDiv {
+    gap: 30px;
+}
+
+.grayButton {
+    border: 1px solid #212121;
+    padding: 12px 30px;
+    background: rgba(33, 33, 33, 0.10);
+}

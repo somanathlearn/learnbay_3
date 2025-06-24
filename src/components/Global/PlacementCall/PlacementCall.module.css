@@ -1,0 +1,218 @@
+.rightSide {
+  width: fit-content;
+  height: 80px;
+}
+.stttt {
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.slide p {
+  color: rgb(0, 0, 0);
+}
+.slideWrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  grid-template-columns: 15% 80%;
+}
+/* .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EAEDF2;
+  padding: 5px;
+  font-size: 70px;
+} */
+.numberIcon {
+  font-size: 40px;
+  color: #0072bc;
+}
+
+.slideWrap p {
+  color: #FE7A36;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%;
+}
+.imgShowM {
+  display: none;
+}
+.PlacementCallMain {
+  opacity: 2;
+  background-color: #1e1e1e;
+  padding: 40px 0px;
+  margin-top: 30px;
+}
+.title {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.title h2 {
+  color: #FE7A36;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%;
+}
+.title p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 112.5%;
+}
+.course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  /* margin: 34px 40px 0px 40px; */
+  margin-top: 30px;
+}
+.mbldiv {
+  display: flex;
+  overflow: none;
+}
+.PlacementCallcourse {
+  border-radius: 6.18px;
+  border: 2.06px solid rgba(255, 255, 255, 0.6);
+  padding: 14px 10px;
+  margin: 10px 30px;
+}
+.PlacementCallcourse p {
+  color: #80f7ff;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 20.902px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%;
+  /* 39.091px */
+  margin: 0px 20px;
+}
+.projectcer p {
+  color: #FE7A36;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%;
+  /* 37.95px */
+  margin: 0px;
+}
+.projectcer {
+  border-radius: 2.18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: fit-content;
+  padding: 10px 10px;
+  /* margin-top: 33px; */
+  text-align: center;
+  /* gap: 3px; */
+}
+.PlacementCallIcon {
+  width: 40px;
+  /* height: 50px; */
+  color: #0072bc;
+}
+.imgsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+@keyframes scrollAnimation {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(-40%);
+  }
+}
+.course {
+  animation: scrollAnimation 16s linear infinite;
+  scroll-margin: 20px;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+/* Rest of your CSS code here for larger screens */
+@media (max-width: 600px) {
+  .imgsection img {
+    width: 380px;
+    height: 180px;
+  }
+  .projectcer {
+    margin: 1px 30px;
+  }
+  .projectcer p {
+    font-size: 18px;
+  }
+  .title {
+    margin: 0px 20px;
+  }
+  .title h2 {
+    font-size: 27px;
+  }
+  .PlacementCallcourse {
+    display: block;
+  }
+  .mbldiv {
+    display: flex;
+    /* overflow-x: auto; */
+  }
+  .PlacementCallMain {
+    overflow: hidden;
+  }
+  .course {
+    animation: scrollAnimation 16s linear infinite;
+    scroll-margin: 20px;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+  }
+  @keyframes scrollAnimation {
+    from {
+      transform: translateX(80%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+@media (max-width: 600px) {
+  .PlacementCallMain {
+    overflow: hidden;
+    padding: 40px 0px 0px 0px;
+  }
+  .imgsection img {
+    width: 300px;
+  }
+  .imged img {
+    width: 340px;
+    height: 40px;
+  }
+}
+@media (max-width: 1281px)
+{
+  .PlacementCallMain{
+    overflow: hidden;
+  }
+}
+@media (min-width: 1400px){
+.PlacementCallMain{
+  overflow: hidden;
+}
+}

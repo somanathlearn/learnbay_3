@@ -1,0 +1,204 @@
+.Container{
+    position: relative;
+    padding: 30px 0 30px 0;
+    /* background: radial-gradient(circle, #e0f7fa, #ffffff); */
+    background: radial-gradient(circle, #e0f7fa 40%, #ffffff 80%);
+    max-width: 1200px;
+}
+.Container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 1) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.sliderWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* width: 1000px; */
+}
+
+.slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    height: max-content;
+}
+
+.coursesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: max-content;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 0 0 auto;
+    height: max-content; 
+    text-align: center;
+    overflow: visible;
+    padding: 10px;
+    width: max-content;
+}
+
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.courseTitle,.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseTitle,.course {
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #000;
+    z-index: 1;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.courseTitle:hover,.course:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4); 
+    transform: scale(1.05); 
+    transition: all 0.4s ease-in-out; 
+}
+
+.courseTitle p,.course p{
+    margin: 0;
+}
+  /* view more design */
+  .viewMoreContainer {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .viewMoreButton {
+    background: #0072bc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .viewMoreButton:hover {
+    background: #005a99;
+  }
+  
+
+@media screen and (max-width : 1281px) {
+    .card{
+        width: 27%;
+    }
+
+    .coursesContainer{
+        justify-content: center;
+    }
+}
+@media screen and (max-width : 1081px) {
+    .card{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width : 841px) {
+    .coursesContainer{
+        gap: 10px;
+    }
+
+    .card{
+        width: 32%;
+    }
+
+    .courseTitle{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width : 641px) {
+    .sliderContainer {
+        padding: 0 30px 30px 30px;
+    }
+
+    .card{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .sliderWrapper{
+        gap: 20px;
+    }
+    .sliderWrapper h2{
+        font-size: 24px;
+    }    
+    .paginationDots{
+        margin-top: 10px;
+    }
+
+    .courseTitle {
+        width: 90%;
+        font-size: 15px;
+        padding: 10px;
+        bottom: -20px;
+    }
+
+    .coursesContainer{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .Container::before {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 92%, rgba(255, 255, 255, 1) 100%);
+    }
+}
+
+@media screen and (max-width : 361px) {
+    .courseTitle{
+        width: 100%;
+    }
+}

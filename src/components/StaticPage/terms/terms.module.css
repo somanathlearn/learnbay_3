@@ -1,0 +1,84 @@
+.terms {
+  margin: 70px 0px;
+  padding: 0px;
+}
+
+.BackT {
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/terms-and-condition.png");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px;
+}
+
+.termsInner {
+  padding: 30px 100px;
+  text-align: justify;
+}
+.head{
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.top {
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.topL {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0072bc;
+}
+
+.bot {
+  font-size: 16px;
+  display: block;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.bot1 {
+  font-size: 16px;
+  display: list-item;
+  color: black;
+}
+
+#link {
+  color: aqua;
+}
+
+@media (max-width: 600px) {
+  .BackP {
+    height: 50vh;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .terms {
+    margin: 20px 0px;
+  }
+
+  .termsInner {
+    padding: 30px 20px;
+  }
+}

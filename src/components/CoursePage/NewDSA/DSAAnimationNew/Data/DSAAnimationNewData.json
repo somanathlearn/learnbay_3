@@ -1,0 +1,47 @@
+[
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
+      "title": "Basic to Advance DSA with 200+ Problems",
+      "description": "Learn DSA from basics to advanced with 200+ problems and live coding sessions in class. Solve guided assignments covering intermediate to advanced-level challenges to build strong problem-solving skills.",
+      "subItems": [
+        {
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ProjectManagement.webp",
+          "text": "Live Projects from industry",
+          "width": "50",
+          "height": "50"
+        },
+        {
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/CheckedUserMale.webp",
+          "text": "Dedicated Project Mentor",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/purple_why.webp",
+      "title": "Master System Design (HLD + LLD)",
+      "description": "Build scalable, high-performance applications with real-world architectural patterns.Learn to design robust backend systems, optimize databases, caching, and load balancing, and solve real-world scalability challenges",
+      "subItems": [
+        {
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/New+Job.webp",
+          "text": "Crack System Design Interviews at Top Tech Companies",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_light+(1).webp",
+      "title": "Specialise in GenAI For Software Developer",
+      "description": "Prepare with problems from top tech companies like <IBMLogo />, <GoogleLogo />, and <AmazonLogo /> covering coding, system design, and machine coding rounds.",
+      "subItems": []
+    },
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_girl+(1).webp",
+      "title": "Gain Real Experience with Real Projects",
+      "description": "Gain hands-on experience by working on real-world software development projects in a structured DevLab environment. Learn by coding, and deploying like a real software developer.",
+      "subItems": []
+    }
+  ]
+  

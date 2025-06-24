@@ -1,0 +1,214 @@
+/* Existing CSS */
+
+.animHead {
+  text-align: center;
+}
+
+.boxmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px 100px 20px;
+  gap: 20px;
+}
+
+.box {
+  border-radius: 20px;
+  border: 1px solid #0072bc;
+  background: linear-gradient(90deg, #f7fcff 0%, #f7fcff 90.4%);
+  width: 260px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box p {
+  color: #0072bc;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 128%;
+}
+
+.box span {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 158%;
+}
+
+/* Animation code */
+.animationdiv {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px 10px 20px; /* Adjust margin as needed */
+}
+
+.cercleone {
+  border-radius: 50%;
+  border: 1px solid #ffb1b1;
+  background: rgba(249, 150, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  opacity: 0;
+  transform: translateY(50px); /* Adjust initial position */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.icons {
+  font-size: 40px;
+  opacity: 0;
+  transform: translateY(50px); /* Adjust initial position */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.arrow {
+  width: 100px; /* Adjust width as needed */
+  height: 4px;
+  background-color: #edbb52;
+  position: relative;
+  opacity: 0;
+  transform: translateX(-50px); /* Adjust initial position */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.arrow::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -10px; /* Adjust to position the arrowhead correctly */
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent transparent #edbb52;
+}
+
+.animationdiv .animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animationdiv .animate .icons {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animationdiv .animate .arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Keyframes animations */
+@keyframes appearFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appearFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+}
+
+@media screen and (max-width: 640px) {
+  .boxmain {
+    flex-direction: column;
+    margin: 0;
+    padding: auto;
+  }
+
+  .flexdiv {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  .animationdiv {
+    flex-direction: column;
+    margin: 0;
+    gap: 25px;
+  }
+
+  .cercleone {
+    width: 50px;
+    height: 50px;
+  }
+
+  .animationdiv img {
+    width: 40px;
+    height: fit-content;
+  }
+
+  .box {
+    padding: 10px;
+    width: 260px;
+  }
+
+  .box p {
+    font-size: 20px;
+  }
+
+  .box span {
+    font-size: 16px;
+  }
+
+  .arrow {
+    width: 3px;
+    height: 40px;
+    transform: translateY(-50px); /* Adjust initial position */
+  }
+
+  .arrow::before {
+    top: auto;
+    bottom: -18px;
+    left: -10px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #edbb52 transparent transparent transparent;
+  }
+
+  .animationdiv .animate .arrow {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .tik img {
+    width: 60px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+
+.box{
+  width: 200px;
+  height: auto;
+}
+.box p {
+  font-size: 14px;
+}
+.box span{
+  font-size: 10px;
+}
+
+}

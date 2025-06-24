@@ -1,0 +1,69 @@
+.privacy {
+  margin: 70px 0px;
+  padding: 0px;
+}
+
+.BackP {
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/privacy-policy.png");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px;
+}
+
+.privacyInner {
+  padding: 30px 100px;
+  text-align: justify;
+}
+
+.top {
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #000;
+}
+.head {
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #000;
+}
+
+.bot {
+  font-size: 16px;
+  display: block;
+  color: #000;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .BackP {
+    height: 50vh;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .privacy {
+    margin: 20px 0px;
+  }
+
+  .privacyInner {
+    padding: 30px 20px;
+  }
+}

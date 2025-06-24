@@ -1,0 +1,181 @@
+/* components/UpdatedCertificate.module.css */
+
+.certificateSection {
+  background: linear-gradient(90deg, #262626 0%, #393939 99.02%);
+  color: #ffffff;
+  padding: 2rem;
+  
+}
+
+/* Top Navigation (tabs) */
+.topNav {
+  display: flex;
+  gap: 2rem;
+  margin: 0 0 0 2.78rem;
+  /* flex-flow: column; */
+}
+.wrapper h3 {
+  text-align: center;
+  margin: 40px;
+}
+.navItem {
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.3s;
+  font-size: 22px;
+}
+
+/* Highlight active tab with orange underline */
+.highlight {
+  color: #fe7a36;
+  font-weight: bold;
+  border-bottom: 2px solid #fe7a36;
+  padding-bottom: 2px;
+}
+.bulletList p {
+  margin-top: 23px;
+}
+/* Main content container for single image case */
+.content {
+  display: grid;
+  grid-template-columns: 56% 6% 34%;
+  gap: 2rem;
+}
+
+/* Left Text Section for single image case */
+.leftSection {
+  flex: 1;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 61px 0 40px 40px;
+  color: white;
+  border-bottom: groove;
+  border-color: #fe7a36;
+  width: fit-content;
+}
+
+/* Bullet list styling for single-set data */
+.bulletList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 40px;
+}
+.bulletList p {
+  color: white;
+}
+/* 
+.bulletList li {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 1.5rem;
+  font-size: 18px;
+} */
+/* 
+.bulletList li::before {
+  content: "●";
+  color: #00ff00;
+  position: absolute;
+  left: 0;
+} */
+
+/* Right Section for single image case */
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+/* Styles for multiple image case */
+
+/* multipleContent: vertical stack containing title and a horizontal row */
+.multipleContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* multipleRow: horizontal arrangement of certificate items */
+.multipleRow {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 1rem;
+}
+/* .leftSection img {
+  margin-left: 20px;
+} */
+.checkCircle {
+  margin-right: 15px;
+  font-size: 20px;
+  background: green;
+  border-radius: 50%;
+}
+
+/* multipleItem: a single certificate item (image above bullet list) */
+.multipleItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.multipleItem img {
+  width: 300px;
+  height: auto;
+}
+/* Bullet list styling for each certificate item */
+.pairBulletList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.pairBulletList li {
+  margin: 0.25rem 0;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "rightSection"
+      "leftSection";
+  }
+  .bulletList p {
+    display: grid;
+    grid-template-columns: 10% 80%;
+  }
+
+  .bulletList {
+    margin: 0;
+  }
+  .rightSection {
+    grid-area: rightSection;
+  }
+  .leftSection {
+    grid-area: leftSection;
+  }
+}
+@media (max-width: 641px) {
+  .multipleRow {
+    grid-template-columns: 100%;
+  }
+  .multipleItem img {
+    width: 100%;
+  }
+  .topNav {
+    margin: 0 0 2.3rem 2.78rem;
+  }
+
+  .title {
+    text-align: left;
+    border-bottom: none;
+    margin: 5px 0 40px 0;
+  }
+  .pairBulletList li {
+    margin: 0.25rem 0 1.5rem 0;
+  }
+}

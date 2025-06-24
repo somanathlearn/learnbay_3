@@ -1,0 +1,71 @@
+{
+  "metaInfo": {
+    "title": "Masterclass",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects."
+  },
+  "mainData": {
+    "eventDate": "January 27, 2023",
+    "tag": "System Design",
+    "eventTime": "7 p.m. to 10 p.m.",
+    "register": "777",
+    "likes": "687"
+  },
+  "eventFeatureData": {
+    "heading1": "About this Masterclass",
+    "aboutThisMasterclass": [
+      "In today's fast-paced banking industry, understanding customer behaviour is important for success. However, many organizations struggle to analyze and utilize customer data to drive growth and improve customer satisfaction.",
+      "In this Masterclass, you will gain a deep understanding of the key metrics used to analyze customer behaviour and the strategies needed to turn this data into actionable insights. Through expert lectures and real-world case studies, you will learn how to apply these techniques to the unique challenges of the BFSI sector.",
+      "Join us and become a top professional in customer analytics!"
+    ],
+
+    "heading2": "Topics covered in this Masterclass",
+    "topicsCoveredMasterclass": [
+      "Understand key metrics used in customer analytics",
+      "Predict customer needs & wants through previous customer data",
+      "Adoption & application of AI, ML & Big Data in banking",
+      "Integration of business with technology & its benefits",
+      "Market & technology trends driving the adoption of AI in banking"
+    ],
+
+    "speakerName": "Utkarsh Kulshrestha",
+    "speakerDesignation": "Designation : Data Scientist",
+    "speakerComp": "JP Morgan",
+    "img4": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/Untitled-1.jpg",
+
+    "h1": "100% Live Classes",
+    "h2": "Customized Learning",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
+
+    "heading3": "This Masterclass is for",
+
+    "masterclassForHeading1": "Banking professionals looking to upskill in data science in the banking domain",
+    "masterclassForHeading2": "BFSI professionals who want to predict loan defaults and forecast insurance pricing",
+    "masterclassForHeading3": "Executive-level BFSI professionals dreaming of securing a position at the forefront of BFSI",
+    "masterclassForHeading4": "BFSI managers & leaders who want to incorporate data-driven practices into their business",
+    "masterclassForHeading5": "Data scientists looking to make a meaningful impact in the banking domain",
+
+    "heading4": "What our Learners have to say",
+
+    "heading5": "About Learnbay Academy",
+    "aboutLearnbay": [
+      "Welcome to Learnbay!",
+      "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+    ],
+    "aboutLearnbayHeading": "Some of our standout features include: ",
+    "standoutFeatures": [
+      "Curriculum that is developed, supervised and approved by industry experts",
+      "1:1 mentorship from top experts in the field",
+      "Opportunities to gain technical expertise through real-world projects",
+      "Over 250 hiring partners and dedicated placement support",
+      "100% guarantee interview calls"
+    ],
+    "standoutFeaturesLastHead": [
+      "Sign up for a free demo class and enroll in the domain of your choice."
+    ]
+  },
+  "headImg": {
+    "deskimg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/WebsiteImg.png",
+    "mobimg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/30_12Mobile.png"
+  }
+}

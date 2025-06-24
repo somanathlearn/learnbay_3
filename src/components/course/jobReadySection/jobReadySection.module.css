@@ -1,0 +1,76 @@
+.container {
+    padding: 50px 0px 70px 0px;
+  }
+
+  .headH4 {
+    color: #000;
+font-size: 34px;
+font-weight: 700;
+text-align: center;
+  }
+
+  .grey {
+    color: #7A7A7A;
+  }
+
+  .orange {
+    color: #FE7A36;
+  }
+
+  .innerdiv {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    gap: 34px 60px;
+    margin-top:50px;
+    padding: 70px 50px;
+    border-radius: 33px;
+background: #F8FCFF;
+  }
+
+  .innerdiv div h4 {
+    color: #0072BC;
+    font-weight: 700;
+  }
+
+  .innerdiv div p {
+    color: #121212;
+    font-size: 19px;
+    font-weight: 400;
+    margin-right: 110px;
+    line-height: 148%; /* 42.153px */
+  }
+
+  .innerdiv div:nth-child(1), .innerdiv div:nth-child(2), .innerdiv div:nth-child(3), .innerdiv div:nth-child(4) {
+    border: 1.835px solid transparent;
+    border-radius: 41.284px; /* Border radius */
+        padding: 36px 0px 0px 42px;
+
+  }
+
+  .innerdiv div:nth-child(1), .innerdiv div:nth-child(4) {
+    background: 
+        linear-gradient(#DFEEF8, #DFEEF8) padding-box, 
+        linear-gradient(to right, #0072BC, #DFEEF8) border-box;
+  }
+
+  .innerdiv div:nth-child(2), .innerdiv div:nth-child(3) {
+    background: 
+        linear-gradient(#FFF2EB, #FFF2EB) padding-box, 
+        linear-gradient(to right, #FE7A36, #FFF2EB) border-box;
+  }
+
+  .innerdiv img {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+  }
+
+  .img1 {
+    margin-bottom: -2px;
+  }
+
+  .img2 {
+    margin-bottom: -13px;
+  }

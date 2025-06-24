@@ -1,0 +1,35 @@
+.container {
+  padding: 50px;
+  background: #f0f8fd;
+}
+.container h4 {
+  text-align: center;
+}
+.BoxDiv {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 25px;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .BoxDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .container h4 {
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 153%;
+    text-align: center;
+    padding-top: 22px;
+    margin: 0px;
+  }
+}

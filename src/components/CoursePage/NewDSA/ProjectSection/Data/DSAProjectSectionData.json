@@ -1,0 +1,64 @@
+
+[
+  {
+    "id": 1,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Twitter.webp",
+    "number": 1,
+    "hours": "26 hours",
+    "title": "Social Media Feed System",
+    "text": "Efficient real-time notification feed management system for Twitter . Lightning speed time update and access during high volume data management per second.",
+    "cta": " Effective data Sharding and caching technique implementation.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp"
+  },
+  {
+    "id": 2,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Oyo.webp",
+    "number": 2,
+    "hours": "26 hours",
+    "title": "Designing of Booking System for Hotel Rooms",
+    "text": "User reservation and room management focused booking management systems for business.",
+    "cta": "Infusion of a database schema for tracking room bookings, customer accounts etc.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azuredevopspipeline.webp"
+  },
+  {
+    "id": 3,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ProjectSwiggy.webp",
+    "number": 3,
+    "hours": "26 hours",
+    "title": "Food Ordering System",
+    "text": "Build a platform connecting users to local restaurants for ordering and delivery.",
+    "cta": "Design a microservices architecture for managing restaurant listings, orders etc.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azureawsjenkins.webp"
+
+  },
+  {
+    "id": 4,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/netflix_logo.webp",
+    "number": 4,
+    "hours": "26 hours",
+    "title": "Netflix Content Streaming Service",
+    "text": "Design a microservices-based architecture for Netflix’s streaming service, focusing on service decomposition.",
+    "cta": " Use CAP principles to manage data consistency.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dockerkubernatics.webp"
+  },
+  {
+    "id": 5,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Flipkart.webp",
+    "number": 5,
+    "hours": "26 hours",
+    "title": "End-to-end Design of Flipkart-like Shopping Cart",
+    "text": " High-quality UI , rich shopping cart system creation from scratch. Includes features like add, replace ,delete items.",
+    "cta": " Normalization of database schema, Sequence diagrams .",
+  "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/git_linux.webp"
+  },
+  {
+    "id": 6,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/makemytrip.webp",
+    "number": 6,
+    "hours": "26 hours",
+    "title": "Developing Property Booking System",
+    "text": "Create a booking management system for hotels that supports user reservations and room management.",
+    "cta": "Implement a normalized database schema for hotels, rooms .",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/promethusgrafna.png"
+  }
+]

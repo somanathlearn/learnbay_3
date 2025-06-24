@@ -1,0 +1,780 @@
+.mainContainer {
+  margin-top: 70px;
+  background: #212121;
+  padding: 30px 0 60px;
+  overflow: hidden;
+}
+
+.mainContainer p{
+  margin: 0;
+}
+
+.contentWrapper {
+  position: relative;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 30px 180px;
+  border-radius: 0 0 60px 60px;
+  background: linear-gradient(to bottom,
+      #212121 0%,
+      rgba(0, 114, 188, 0.2) 60%,
+      rgba(0, 114, 188, 0.2) 100%);
+}
+
+.contentTitleWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.contentTitleWrapper h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109%;
+  width: 90%;
+}
+
+.contentTitleWrapper span {
+  background: linear-gradient(90deg, #fe7a36 21.44%, #ffc436 61.33%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109%;
+}
+
+.contentTitleWrapper h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109%;
+  background: rgb(50, 42, 74);
+  border: 1px solid white;
+  width: max-content;
+  padding: 10px 90px;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.svgWrapper {
+  position: absolute;
+  top: 75px;
+  right: 30px;
+}
+
+.contentPointWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.pointWrapper {
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pointText {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+}
+
+.pointTextBold {
+  font-weight: 700;
+}
+
+.mentorsWraper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mentorsContentsWraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.mentorText {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.679px;
+  text-transform: capitalize;
+}
+
+.mentorFromImgWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.TableauSoftwareIconWrapper,
+.ModuleIconWrapper,
+.PieChartIconWrapper,
+.HierarchyIconWrapper {
+  position: absolute;
+}
+
+.TableauSoftwareIconWrapper {
+  top: 295px;
+  left: 245px;
+}
+
+.ModuleIconWrapper {
+  top: 150px;
+  right: 65px;
+}
+
+.PieChartIconWrapper {
+  bottom: 205px;
+  left: 100px;
+}
+
+.HierarchyIconWrapper {
+  bottom: 260px;
+  right: 150px;
+}
+
+.staticPoints,
+.mobileSvgWrapper {
+  display: none;
+}
+
+@media only screen and (max-width: 1481px) {
+  .contentWrapper {
+    padding: 30px 150px 0;
+    gap: 70px;
+  }
+}
+
+@media only screen and (max-width: 1419px) {
+  .contentWrapper {
+    padding: 30px 130px 0;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .newDsaGrayBtn button {
+    padding: 18px 24px;
+  }
+}
+
+@media only screen and (max-width: 1329px) {
+  .contentTitleWrapper h1 {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1381px) {
+  .contentTitleWrapper h1 {
+    font-size: 48px;
+  }
+
+  .svgWrapper {
+    right: 30px;
+  }
+
+  .TableauSoftwareIconWrapper {
+    left: 200px;
+  }
+
+  .HierarchyIconWrapper {
+    right: 120px;
+  }
+}
+
+@media only screen and (max-width: 1361px) {
+  .svgWrapper{
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1325px) {
+  .svgWrapper{
+    right: 10px;
+  }
+}
+@media only screen and (max-width: 1281px) {
+  .contentTitleWrapper h1 {
+    font-size: 44px;
+  }
+
+  .contentTitleWrapper h5{
+    padding: 10px 70px;
+  }
+
+  .contentWrapper {
+    padding: 30px 110px 0;
+    gap: 50px;
+  }
+
+  .svgWrapper {
+    top: 70px;
+    right: 10px;
+  }
+
+  .TableauSoftwareIconWrapper {
+    left: 150px;
+  }
+
+  .HierarchyIconWrapper {
+    right: 100px;
+  }
+
+  .newDsaNewBlueBtn button {
+    padding: 13px 20px;
+  }
+}
+
+@media only screen and (max-width: 1261px) {
+  .svgWrapper{
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 1238px) {
+  .svgWrapper{
+    right: -10px;
+  }
+}
+@media only screen and (max-width: 1213px) {
+  .svgWrapper{
+    right: -20px;
+  }
+}
+@media only screen and (max-width: 1181px) {
+  .contentTitleWrapper h1 {
+    font-size: 40px;
+  }
+
+  .contentTitleWrapper h5{
+    padding: 10px 50px;
+  }
+
+  .TableauSoftwareIconWrapper {
+    left: 110px;
+    top: 250px;
+  }
+
+  .ModuleIconWrapper {
+    right: 35px;
+  }
+
+  .PieChartIconWrapper {
+    left: 70px;
+    bottom: 160px;
+  }
+
+  .HierarchyIconWrapper {
+    right: 85px;
+  }
+
+  .svgWrapper{
+    right: -10px;
+    top: 55px;
+  }
+}
+
+@media only screen and (max-width: 1165px) {
+  /* .svgWrapper{
+    right: -40px;
+  } */
+}
+
+@media only screen and (max-width: 1121px) {
+  .svgWrapper {
+    right: -25px;
+  }
+}
+
+@media only screen and (max-width: 1231px) {
+  /* .svgWrapper{
+    right: -60px;
+  } */
+}
+@media only screen and (max-width: 1081px) {
+  .contentTitleWrapper h5 {
+    font-size: 26px;
+  }
+
+  .svgWrapper {
+    right: -10px;
+  }
+
+  .TableauSoftwareIconWrapper {
+    top: 260px;
+    left: 60px;
+  }
+
+  .HierarchyIconWrapper {
+    right: 60px;
+  }
+
+  .contentPointWrapper {
+    gap: 20px;
+  }
+
+  .pointWrapper {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1067px) {
+  .contentTitleWrapper h1 {
+    font-size: 38px;
+  }
+
+  .contentWrapper {
+    padding: 30px 90px 0;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .contentWrapper {
+    padding: 30px 70px 0;
+  }
+
+  .TableauSoftwareIconWrapper {
+    top: 225px;
+    left: 48px;
+  }
+
+  .contentTitleWrapper h1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 961px) {
+  .svgWrapper{
+    right: -30px;
+  }
+}
+@media only screen and (max-width: 901px) {
+  .svgWrapper{
+    right: -40px;
+  }
+}
+@media only screen and (max-width: 894px) {
+  .contentTitleWrapper h1 {
+    width: 105%;
+  }
+}
+
+@media only screen and (max-width: 877px) {
+  .pointWrapper {
+    gap: 0;
+  }
+
+  .contentWrapper {
+    padding: 30px 60px 0;
+  }
+}
+
+@media only screen and (max-width: 841px) {
+  .svgWrapper {
+    top: 50px;
+  }
+
+  .svgWrapper svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mainContainer {
+    padding: 30px 0 45px;
+  }
+
+  .contentWrapper {
+    padding: 30px 45px 0;
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .contentTitleWrapper h1 {
+    font-size: 35px;
+  }
+
+  .pointText {
+    font-size: 15px;
+  }
+
+  .svgWrapper svg {
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 761px) {
+  .svgWrapper {
+    top: 40px;
+    right: -28px;
+  }
+
+  .contentWrapper {
+    gap: 40px;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  .mainContainer {
+    margin-top: 50px;
+    padding: 20px 0 40px;
+  }
+
+  .contentWrapper {
+    width: 90%;
+    padding: 20px 25px;
+    border-radius: 0 0 40px 40px;
+  }
+
+  .contentTitleWrapper h1 {
+    font-size: 32px;
+  }
+
+  .contentTitleWrapper h5 {
+    font-size: 22px;
+    padding: 8px 15px;
+  }
+
+  .TableauSoftwareIconWrapper {
+    top: 185px;
+    left: 8px;
+  }
+
+  .ModuleIconWrapper {
+    top: 120px;
+    right: 20px;
+  }
+
+  .PieChartIconWrapper {
+    bottom: 180px;
+    left: 50px;
+  }
+
+  .HierarchyIconWrapper {
+    bottom: 210px;
+    right: 40px;
+  }
+
+  .contentPointWrapper {
+    gap: 15px;
+  }
+
+  .pointWrapper {
+    width: 260px;
+  }
+
+  .pointText {
+    font-size: 14px;
+  }
+
+  .mentorsWraper {
+    gap: 30px;
+  }
+
+  .svgWrapper {
+    top: 50px;
+    right: -10px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 481px) {
+  .contentWrapper {
+    background: linear-gradient(to bottom,
+        #212121 0%,
+        #212121 50%,
+        rgba(0, 114, 188, 0.2) 80%,
+        rgba(0, 114, 188, 0.2) 100%);
+  }
+
+  .mainContainer {
+    padding: 20px 0 40px 0;
+  }
+
+  .contentWrapper {
+    width: 100%;
+    gap: 55px;
+  }
+
+  .contentTitleWrapper h1 {
+    width: 77%;
+    margin: auto;
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  .svgWrapper {
+    display: none;
+  }
+
+  .mobileSvgWrapper {
+    position: absolute;
+    display: block;
+    width: max-content;
+    top: 100px;
+    right: 30px;
+  }
+
+  .mobileSvgWrapper svg {
+    width: 50px;
+    height: 55px;
+  }
+
+  .contentTitleWrapper h5 {
+    width: 72%;
+    font-size: 19px;
+    padding: 6px 31px;
+  }
+
+  .TableauSoftwareIconWrapper,
+  .HierarchyIconWrapper,
+  .ModuleIconWrapper,
+  .PieChartIconWrapper {
+    /* top: 135px;
+    left: 3px; */
+    display: none;
+  }
+
+  /* 
+  .TableauSoftwareIconWrapper img {
+    width: 25px;
+    height: 25px;
+    }
+    
+    .ModuleIconWrapper {
+      top: 70px;
+      right: 5px;
+      }
+      
+      .PieChartIconWrapper {
+        bottom: 73px;
+        left: 0px;
+        }
+        
+        .PieChartIconWrapper img {
+          width: 25px;
+          height: 20px;
+          }
+          
+          .HierarchyIconWrapper {
+            bottom: 145px;
+            right: 0px;
+            }
+            
+            .HierarchyIconWrapper img {
+              width: 35px;
+              height: 35px;
+              } */
+
+  .contentPointWrapper {
+    gap: 10px;
+  }
+
+  .pointWrapper {
+    width: 220px;
+  }
+
+  .mentorsWraper {
+    gap: 60px;
+  }
+
+  .mentorsContentsWraper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mentorFromImgWrapper {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .contentPointWrapper {
+    gap: 8px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .pointWrapper {
+    width: -webkit-fill-available;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .pointText {
+    display: none;
+  }
+
+  .staticPoints p {
+    color: #FFF;
+    font-style: normal;
+    line-height: 125%;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .staticPoints {
+    display: block;
+    text-align: center;
+  }
+
+  .pointsImgWrapper img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  .contentTitleWrapper h1 {
+    width: 85%;
+  }
+
+  .mobileSvgWrapper{
+    right: 30px;
+  }
+}
+
+@media only screen and (max-width: 431px) {
+  .contentTitleWrapper h1 {
+    width: 90%;
+  }
+
+  .mobileSvgWrapper{
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+  .contentTitleWrapper h5 {
+    width: 68%;
+    padding: 6px 15px;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  .contentTitleWrapper h1 {
+    width: 100%;
+  }
+
+  .mobileSvgWrapper {
+    right: 15px;
+    top: 100px;
+  }
+
+  .contentTitleWrapper h5 {
+    width: 74%;
+  }
+
+  .newDsaGrayBtn button {
+    padding: 18px 20px;
+  }
+}
+
+@media only screen and (max-width: 401px) {
+  .contentTitleWrapper h5 {
+    font-size: 18px;
+  }
+
+  .newDsaNewBlueBtn button {
+    padding: 13px 10px;
+  }
+
+  .newDsaGrayBtn button {
+    padding: 18px 10px;
+  }
+
+  .mobileSvgWrapper{
+    right: 5px;
+  }
+}
+
+@media (max-width: 385px) {
+  .contentTitleWrapper h5 {
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  .staticPoints p {
+    font-size: 14px;
+  }
+
+  .mobileSvgWrapper{
+    right: 0px;
+  }
+
+  .newDsaGrayBtn button {
+    padding: 15px 5px;
+  }
+}
+
+@media only screen and (max-width: 371px) {
+  .mobileSvgWrapper{
+    right: -5px;
+    top: 95px;
+  }
+  .contentTitleWrapper h1{
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .contentWrapper {
+    width: 100%;
+    padding: 15px 10px;
+    /* gap: 30px; */
+    border-radius: 0;
+  }
+
+
+  .staticPoints p {
+    font-size: 13px;
+  }
+
+  /* .contentTitleWrapper h1 {
+        font-size: 24px;
+    } */
+
+  /* .contentTitleWrapper h5 {
+        font-size: 14px;
+        padding: 5px 10px;
+        width: -webkit-fill-available;
+    } */
+
+
+  .mentorsWraper {
+    gap: 40px;
+  }
+
+  .mentorText {
+    line-height: normal;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+    padding: 20px 10px;
+    text-align: center;
+    background: #1A2027;
+    margin-top: 40px;
+}
+
+.head {
+    color: #FE7A36;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.bot {
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+}
