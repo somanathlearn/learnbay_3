@@ -4,12 +4,12 @@ import { useMediaQuery } from "react-responsive";
 
 // Dynamic imports
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
-// import HeroSection from "../components/HomeNew/HeroSecation/HeroSection";
-// import PartnersSlider from "@/components/HomeNew/PartnerSlides/Partner";
-// import ProgramSection from "@/components/HomeNew/ProgramSection/ProgramSection";
-// import TabsCard from "@/components/HomeNew/TabsCard/TabsCard";
-// import NewUpSkill from "@/components/HomeNew/newUpskill/NewUpSkill";
-// import RealWorld from "@/components/HomeNew/RealWorld/RealWorld";
+import HeroSection from "../components/homeNew/HeroSecation/HeroSection";
+import PartnersSlider from "@/components/homeNew/PartnerSlides/Partner";
+import ProgramSection from "@/components/homeNew/ProgramSection/ProgramSection";
+import TabsCard from "@/components/homeNew/TabsCard/TabsCard";
+import NewUpSkill from "@/components/homeNew/newUpskill/NewUpSkill";
+import RealWorld from "@/components/homeNew/RealWorld/RealWorld";
 // import HandsOn from "@/components/HomeNew/HandsOn/HandsOn";
 // import RealPeople from "@/components/HomeNew/RealPeople/RealPeople";
 const BottomBar = dynamic(() =>
